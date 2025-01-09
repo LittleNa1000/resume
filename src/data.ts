@@ -10,7 +10,7 @@ export const introData = {
 	email: 'naphanccnp@gmail.com',
 	github: 'LittleNa1000',
 	linkedin: 'naphan-choatchuangnapha-216995217',
-	location: 'Bangkok, Thailand',
+	location: 'Bangkok, Thailand'
 	// website: 'narze.live'
 };
 
@@ -21,26 +21,29 @@ export const technologies = [
 	},
 	{
 		section: 'Frameworks/Libraries:',
-		details: 'React, Next.js, NextAuth, Tailwind, MaterialUI, Shadcn, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, LINE API'
+		details:
+			'React, Next.js, NextAuth, Tailwind, MaterialUI, Shadcn, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, LINE API'
 	},
 	{
 		section: 'Tools:',
-		details:
-			'AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, Figma, Canva, Jira'
+		details: 'AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, Figma, Canva, Jira'
 	},
 	{
 		section: 'Other:',
-		details:
-			'OOP, Data Structures & Algorithms, REST API, tRPC, GraphQL'
+		details: 'OOP, Data Structures & Algorithms, REST API, tRPC, GraphQL'
 	}
 ];
 
-// export const educations = [
-// 	{
-// 		head: 'B.Eng. Computer Engineering',
-// 		details: 'Chulalongkorn University, TH. 2007-2010 (GPA 3.45)'
-// 	}
-// ];
+export const educations = [
+	{
+		head: 'B.Eng. Computer Engineering',
+		details: 'Chulalongkorn University, TH. 2021-present (GPA 3.48)'
+	},
+	{
+		head: 'Gifted Science and Mathematics Program',
+		details: 'Assumption College, TH. 2015-2021 (GPA 3.87 with diploma)'
+	}
+];
 
 // export const workExperiences = [
 // 	{
