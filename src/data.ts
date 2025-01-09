@@ -1,39 +1,39 @@
-export const fullVersionLink = 'https://resume.narze.live';
+export const fullVersionLink = 'https://github.com/LittleNa1000/resume';
 export const sourceLink = 'https://github.com/narze/resume';
 export const ogImageUrl =
 	'https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
 
-// export const introData = {
-// 	name: 'Manassarn Manoonchai',
-// 	nickname: 'Noom',
-// 	phone: '',
-// 	email: 'manassarn@gmail.com',
-// 	github: 'narze',
-// 	linkedin: 'manassarn',
-// 	location: 'Bangkok, Thailand',
-// 	website: 'narze.live'
-// };
+export const introData = {
+	name: 'Naphan Choatchuangnapha',
+	nickname: 'Little',
+	phone: '',
+	email: 'naphanccnp@gmail.com',
+	github: 'LittleNa1000',
+	linkedin: 'naphan-choatchuangnapha-216995217',
+	location: 'Bangkok, Thailand',
+	// website: 'narze.live'
+};
 
-// export const technologies = [
-// 	{
-// 		section: 'Languages:',
-// 		details: 'Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).'
-// 	},
-// 	{
-// 		section: 'Frameworks:',
-// 		details: 'Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap'
-// 	},
-// 	{
-// 		section: 'Tools:',
-// 		details:
-// 			'Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces'
-// 	},
-// 	{
-// 		section: 'Other:',
-// 		details:
-// 			'AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare'
-// 	}
-// ];
+export const technologies = [
+	{
+		section: 'Languages:',
+		details: 'C/C++, Python, Java, JavaScript, TypeScript, Node.js, SQL'
+	},
+	{
+		section: 'Frameworks/Libraries:',
+		details: 'React, Next.js, NextAuth, Tailwind, MaterialUI, Shadcn, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, LINE API'
+	},
+	{
+		section: 'Tools:',
+		details:
+			'AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, Figma, Canva, Jira'
+	},
+	{
+		section: 'Other:',
+		details:
+			'OOP, Data Structures & Algorithms, REST API, tRPC, GraphQL'
+	}
+];
 
 // export const educations = [
 // 	{
