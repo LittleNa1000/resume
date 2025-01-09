@@ -96,6 +96,17 @@
 
 	<section>
 		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Extracurricular Activities</h2>
+			<hr />
+
+			{#each extracurricularActivities as act}
+				<Work {...act} />
+			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
 			<hr />
 
