@@ -59,6 +59,38 @@
 			"hide": false
 		}
 	],
+	"awards": [
+		{
+			"name": "1st Place Winner of Student Track in LINE Hackathon",
+			"details": "- Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection. Made with Typescript, Node, Express, Next.js, MUI, Firebase, LINE LIFF, and LINE API.",
+			"url": "",
+			"hide": false
+		},
+		{
+			"name": "Top 32 in Thailand Online Competitive Programming Contest",
+			"details": "",
+			"url": "",
+			"hide": false
+		},
+		{
+			"name": "Asia-Pacific Informatics Olympiad Contestant",
+			"details": "",
+			"url": "",
+			"hide": false
+		},
+		{
+			"name": "1st & 2nd International Olympiad in Informatics Camp Participant",
+			"details": "",
+			"url": "",
+			"hide": false
+		},
+		{
+			"name": "Silver medal in the 16th Thailand Olympiad in Informatics (TOI16)",
+			"details": "",
+			"url": "",
+			"hide": false
+		}
+	],
 	"technologies": [
 		{
 			"section": "Languages:",
@@ -70,7 +102,7 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, Figma, Canva, Jira"
+			"details": "AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, Appsmith, Figma, Canva, Jira"
 		},
 		{
 			"section": "Other:",
@@ -154,10 +186,7 @@
 			"details": "Assumption College, TH. 2015-2021 (GPA 3.87 with diploma)"
 		}
 	],
-	"interests": [
-		"Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-		"Typing : 120+ words per minute (Colemak Mod-DH layout)"
-	],
+	"interests": ["Areas : Coding"],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/LittleNa1000/resume",
 		"fullVersion": ""

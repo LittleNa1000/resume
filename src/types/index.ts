@@ -3,8 +3,10 @@ export interface IProfileResp {
 	projects: IProject[];
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];
+	extracurricularActivities: IWorkExperience[];
 	educations: IEducation[];
 	interests: string[];
+	awards: IProject[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;

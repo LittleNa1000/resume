@@ -17,6 +17,7 @@
 		extracurricularActivities = [],
 		educations = [],
 		interests = [],
+		awards = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -108,6 +109,27 @@
 
 	<section>
 		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Awards and Participations</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each awards as award}
+					<Hideable hide={award.hide}>
+						<li>
+							<strong>{award.name}</strong>
+							{award.details}
+							<a href="https://{award.url}" target="_blank" rel="noreferrer"
+								><strong>{award.url}</strong></a
+							>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
 			<hr />
 
@@ -127,7 +149,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<!-- <section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
 			<hr />
@@ -142,7 +164,7 @@
 				{/each}
 			</ul>
 		</Hideable>
-	</section>
+	</section> -->
 
 	<footer class="print-only">
 		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
