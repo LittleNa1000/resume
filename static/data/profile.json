@@ -11,76 +11,52 @@
 	},
 	"projects": [
 		{
-			"name": "ChatOS",
-			"details": "Hackable chatbot web application",
-			"url": "chat.narze.live",
+			"name": "Meet & Feat",
+			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula. Made with NestJS, Drizzle, and Google OAuth.",
+			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
 			"hide": false
 		},
 		{
-			"name": "Digital Garden",
-			"details": "My notes & stuff (Second Brain)",
-			"url": "garden.narze.live",
+			"name": "Warehouse of Heart",
+			"details": "Developed an interactive website contributed to Coach by ChAMP exhibition that lets users remind themselves of their goals and memories in the past to create self-reflection and discover their beings with 11,000+ visitors and 3,000 feedbacks. Made with Next.js, Framer Motion, and Tailwind.",
+			"url": "warehouseofheart.coachbychamp.com",
 			"hide": false
 		},
 		{
-			"name": "Manoonchai",
-			"details": "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-			"url": "manoonchai.com",
+			"name": "Action Plan Announcer LINE Chatbot",
+			"details": "Chatbot for announcing action plan (scheduled tasks) during a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Typescript, Node, Express, Next.js, Tailwind, Mongo Atlas, GCP, LINE LIFF, and LINE Messaging API.",
+			"url": "github.com/esc-chula/vishnu21-ap-frontend",
 			"hide": false
 		},
 		{
-			"name": "Dotfiles",
-			"details": "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-			"url": "github.com/narze/dotfiles",
+			"name": "Byenior",
+			"details": "Website for sending and receiving customizable letters between Intania 104 students. Made with Typescript, Bun, Next.js, Tailwind, Supabase, Prisma, and Vercel.",
+			"url": "byenior.chula.engineering",
 			"hide": false
 		},
 		{
-			"name": "Resumette",
-			"details": "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-			"url": "resume.narze.live",
+			"name": "Magic Within",
+			"details": "Led a team of developers to develop an interactive website with minigames for users to overcome self-doubt. Made with Typescript, Bun, Next.js, Tailwind, and Framer Motion.",
+			"url": "magic-within.vercel.app",
 			"hide": false
 		},
 		{
-			"name": "Thwordle",
-			"details": "Thai language Wordle clone.",
-			"url": "thwordle.narze.live",
+			"name": "Skillbridge",
+			"details": "Website for finding part-time jobs for students with a complete user flow starting from applying to receive wages. Made with Typescript, Node, Next.js, Tailwind, NextAuth, PostgreSQL, and AWS S3",
+			"url": "skillbridge-soei.vercel.app",
 			"hide": false
 		},
 		{
-			"name": "9armbot (Contributor)",
-			"details": "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-			"url": "github.com/thananon/twitch_tools",
-			"hide": true
+			"name": "QAIR",
+			"details": "A NodeMCU project that collects CO2, CO, and PM2.5 sensor data and then displays on a website as a dashboard. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with C, Firebase, and Next.js",
+			"url": "",
+			"hide": false
 		},
 		{
-			"name": "#100DaysOfCode",
-			"details": "My take on practicing modern frontend development by building small projects in 100 days",
-			"url": "100daysofcode-narze.vercel.app",
-			"hide": true
-		},
-		{
-			"name": "Baht.rb",
-			"details": "Ruby gem to convert number to Thai Baht format",
-			"url": "rubygems.org/gems/baht",
-			"hide": true
-		},
-		{
-			"name": "Baht.js",
-			"details": "Convert number to Thai Baht format, but 10x faster & fully typed.",
-			"url": "npmjs.com/package/baht",
-			"hide": true
-		},
-		{
-			"name": "Popyut",
-			"details": "Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week",
-			"url": "github.com/popyut/popyut",
-			"hide": true
-		},
-		{
-			"name": "Resound",
-			"details": "Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.",
-			"url": "github.com/narze/resound",
-			"hide": true
+			"name": "RPG Chess",
+			"details": "A 2D desktop game where chess pieces have HP and various attacks and abilities implemented using OOP. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with Java and JavaFX.",
+			"url": "github.com/LittleNa1000/rpg-chess-progmeth-project",
+			"hide": false
 		}
 	],
 	"technologies": [
@@ -115,9 +91,9 @@
 			"position": "Intern Researcher",
 			"company": "Japan Advanced Institute of Science and Technology",
 			"url": "https://www.jaist.ac.jp/english",
-			"years": ["Ishikawa, Japan. Jun 2024", "July 2024"],
+			"years": ["Jun 2024", "July 2024"],
 			"details": [
-				"Researched Secure Software Development Surveying with financial support from the institute",
+				"Researched Secure Software Development Surveying at Ishikawa, Japan, with financial support from the institute",
 				"Categorized coding practices, OWASP, and CWE guidelines based on implementation steps"
 			]
 		},
@@ -135,13 +111,36 @@
 	],
 	"extracurricularActivities": [
 		{
-			"position": "Part-time Web Developer",
-			"company": "Wongnai Media (wongnai.com)",
-			"url": "https://wongnai.com",
-			"years": ["2010"],
+			"position": "Senior Web Developer",
+			"company": "Engineering Student Committee, Chulalongkorn University",
+			"url": "https://github.com/esc-chula",
+			"years": ["July 2023", "Present"],
 			"details": [
-				"Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-				"Learned TDD practice & making early-stage startup"
+				"Prepared and converted raw data to CSV for an orientation website with 40,000+ visitors using Python.",
+				"Developed and designed SQL database, admin tool, and backend server with CRUD, input validation, and file uploading for Intania Run website with 4,200+ registrants using Express, NeonDB, Prisma, and Appsmith.",
+				"Led a team of developers to develop a project tracker website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
+			]
+		},
+		{
+			"position": "Head of Registration and Website",
+			"company": "Larngear Camp 23rd",
+			"url": "https://larngear.org",
+			"years": ["June 2023", "Jan 2024"],
+			"details": [
+				"Maintained and developed new features in the registration website using PostgreSQL, Spring, and React.",
+				"Planned and supervised the registration process from 1,335 applicants via the website to 300 final participants.",
+				"Developed an internal tool for the document verification process using Appsmith.",
+				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases."
+			]
+		},
+		{
+			"position": "Club Member",
+			"company": "Thailand Incubator (Thinc.)",
+			"url": "https://thinc.in.th",
+			"years": ["Oct 2021", "Present"],
+			"details": [
+				"Developed a redesigned Reg Chula platform using Next.js and LINE OA for a demo in HackChula 2024.",
+				"Developed a website for online voting and showing vote results using React and event management and discovery platform for clubs using React and Firebase with a team of 4-6 people in Thinc. 10 Days Project."
 			]
 		}
 	],
