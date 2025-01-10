@@ -14,6 +14,7 @@
 		projects = [],
 		technologies = [],
 		workExperiences = [],
+		extracurricularActivities = [],
 		educations = [],
 		interests = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
@@ -57,7 +58,7 @@
 				{#each technologies as tech}
 					<Hideable>
 						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
+							<span class="w-40 inline-block">{tech.section}</span>
 							<span>{tech.details}</span>
 						</li>
 					</Hideable>
