@@ -22,15 +22,16 @@ export const technologies = [
 	{
 		section: 'Frameworks/Libraries:',
 		details:
-			'React, Next.js, NextAuth, Tailwind, MaterialUI, Shadcn, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, LINE API'
+			'React, Next.js, NextAuth, Tailwind, MaterialUI, Shadcn, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, tRPC, GraphQL, LINE API'
 	},
 	{
 		section: 'Tools:',
-		details: 'AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, Figma, Canva, Jira'
+		details:
+			'AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, Figma, Canva, Jira'
 	},
 	{
 		section: 'Other:',
-		details: 'OOP, Data Structures & Algorithms, REST API, tRPC, GraphQL'
+		details: 'OOP, Data Structures & Algorithms, REST API'
 	}
 ];
 
@@ -45,80 +46,38 @@ export const educations = [
 	}
 ];
 
-// export const workExperiences = [
-// 	{
-// 		position: 'Full-stack Developer, Co-founder',
-// 		company: 'EventPop',
-// 		url: 'https://eventpop.me',
-// 		years: ['2015', 'Current'],
-// 		details: [
-// 			'Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years',
-// 			'Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform',
-// 			'Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.',
-// 			'Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale',
-// 			'Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB',
-// 			'Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges'
-// 		]
-// 	},
-// 	{
-// 		position: 'Senior Infrastructure Software Engineer',
-// 		company: 'OPN TH',
-// 		url: 'https://opn.ooo/',
-// 		years: ['2021', 'Current'],
-// 		details: [
-// 			'Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm',
-// 			'Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store',
-// 			'Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt',
-// 			'Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.',
-// 			'Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store'
-// 		]
-// 	},
-// 	{
-// 		position: 'Maker, Co-founder',
-// 		company: 'Maker Zoo',
-// 		url: 'https://fb.me/makerzoo',
-// 		years: ['2014', '2016'],
-// 		details: [
-// 			'Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand',
-// 			'Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.',
-// 			'Developed hardware-related products for 3-5 clients and startups',
-// 			'Developed smart door lock system for Hubba, first co-working space in Bangkok',
-// 			'Provided 3D-printing service & consultant to more than 50 clients',
-// 			'Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand'
-// 		]
-// 	},
-// 	{
-// 		position: 'Web / IoT Developer (Contract)',
-// 		company: 'Box24',
-// 		url: 'https://washbox24.com',
-// 		years: ['2015', '2016'],
-// 		details: [
-// 			'Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)',
-// 			'Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment'
-// 		]
-// 	},
-// 	{
-// 		position: 'Web Developer',
-// 		company: 'Figabyte',
-// 		url: 'https://www.facebook.com/figabyte',
-// 		years: ['2011', '2014'],
-// 		details: [
-// 			'Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API',
-// 			'Developed web platform using Ruby on Rails 3 & 4',
-// 			'Made iOS apps for several clients using PhoneGap and RubyMotion'
-// 		]
-// 	},
-// 	{
-// 		position: 'Part-time Web Developer',
-// 		company: 'Wongnai Media (wongnai.com)',
-// 		url: 'https://wongnai.com',
-// 		years: ['2010'],
-// 		details: [
-// 			'Developed a small part of website using Java with Spring MVC Framework built with Apache Maven',
-// 			'Learned TDD practice & making early-stage startup'
-// 		]
-// 	}
-// ];
+export const workExperiences = [
+	{
+		position: 'Software Developer (contract)',
+		company: 'Skooldio Tech',
+		url: 'https://www.skooldio.tech',
+		years: ['Oct 2024', 'Present'],
+		details: [
+			'Developed additional feature in TCASter mobile app using Next.js, NestJS, and GraphQL'
+		]
+	},
+	{
+		position: 'Intern Researcher',
+		company: 'Japan Advanced Institute of Science and Technology',
+		url: 'https://www.jaist.ac.jp/english',
+		years: ['Ishikawa, Japan. Jun 2024', 'July 2024'],
+		details: [
+			'Researched Secure Software Development Surveying with financial support from the institute',
+			'Categorized coding practices, OWASP, and CWE guidelines based on implementation steps'
+		]
+	},
+	{
+		position: 'Software Developer (intern)',
+		company: 'KKP Dime',
+		url: 'https://dime.co.th',
+		years: ['Jun 2023', 'July 2023'],
+		details: [
+			'Worked with the team of developers, QA engineers, and product owners based on Scrum process',
+			'Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.',
+			'Contributed to developing and testing Thai Stock Order and Thai Stock Account services using Go and MySQL'
+		]
+	}
+];
 
 // export const projects = [
 // 	{
