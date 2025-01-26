@@ -111,12 +111,22 @@
 	],
 	"workExperiences": [
 		{
+			"position": "Solution Engineer (intern)",
+			"company": "LINE Company (Thailand)",
+			"url": "https://www.line.me/en",
+			"years": ["Jan 2025", "Present"],
+			"details": [
+				"Learned microfrontend and microservice architecture, and software development process as a large enterprise tech company",
+				"Contributed in LINE OA Plus project using Vue.js"
+			]
+		},
+		{
 			"position": "Software Developer (contract)",
 			"company": "Skooldio Tech",
 			"url": "https://www.skooldio.tech",
 			"years": ["Oct 2024", "Present"],
 			"details": [
-				"Developed additional feature in TCASter mobile app using Next.js, NestJS, and GraphQL"
+				"Developed Planner Hub, a customized daily task scheduler and exam reminder for high school students, in TCASter mobile app using Next.js, NestJS, and GraphQL"
 			]
 		},
 		{
@@ -179,7 +189,7 @@
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"details": "Chulalongkorn University, TH. 2021-present (GPA 3.48)"
+			"details": "Chulalongkorn University, TH. 2021-present (GPA 3.54)"
 		},
 		{
 			"head": "Gifted Science and Mathematics Program",
@@ -189,6 +199,6 @@
 	"interests": ["Areas : Coding"],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/LittleNa1000/resume",
-		"fullVersion": ""
+		"fullVersion": "https://resume-ashen-ten.vercel.app/"
 	}
 }
