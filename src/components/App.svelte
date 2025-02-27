@@ -30,9 +30,9 @@
 </script>
 
 <!-- Remove this is you does not want Kofi widget on your site -->
-{#if intro.github == 'narze'}
+<!-- {#if intro.github == 'narze'}
 	<Kofi name={intro.github} />
-{/if}
+{/if} -->
 
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
 	<h1 class="text-4xl">Resumette</h1>
@@ -53,23 +53,6 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
-			<hr />
-			<ul class="text-left list-disc pl-8">
-				{#each technologies as tech}
-					<Hideable>
-						<li>
-							<span class="w-40 inline-block">{tech.section}</span>
-							<span>{tech.details}</span>
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
 			<hr />
 
@@ -87,7 +70,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Experiences</h2>
 			<hr />
 
 			{#each workExperiences as exp}
@@ -166,6 +149,25 @@
 		</Hideable>
 	</section> -->
 
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<hr />
+			<ul class="text-left list-disc pl-8">
+				{#each technologies as tech}
+					<Hideable>
+						<li>
+							<div class="flex">
+								<span class="basis-40 inline-block shrink-0">{tech.section}</span>
+								<span>{tech.details}</span>
+							</div>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
 	<footer class="print-only">
 		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
 		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
@@ -182,7 +184,7 @@
 	}
 
 	section {
-		@apply my-4;
+		@apply my-6;
 	}
 
 	section h2 {

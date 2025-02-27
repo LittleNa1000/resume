@@ -1,6 +1,6 @@
 <script lang="ts">
-	export let name: string = 'Foo';
-	export let nickname: string = '';
+	export let name: string = 'Naphan Choatchuangnapha';
+	export let nickname: string = 'Little';
 	export let phone: string = '';
 	export let email: string = '';
 	export let github: string = '';
@@ -9,7 +9,7 @@
 	export let website: string = '';
 </script>
 
-<div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base">
+<div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base items-center">
 	<div class="flex-1 text-left sm:py-4 w-48">
 		<p><a href={`tel:${phone}`}>{phone}</a></p>
 		<p><a href={`mailto:${email}`}>{email}</a></p>
@@ -33,7 +33,7 @@
 			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
 		</p>
 		<p>
-			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer">Linkedin</a>
+			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer">LinkedIn</a>
 		</p>
 	</div>
 </div>
