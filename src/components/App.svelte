@@ -170,7 +170,7 @@
 
 	<footer class="print-only">
 		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
-		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
+		or <a href={sourceLink} target="_blank" rel="noopener">source code</a>)
 	</footer>
 </main>
 
@@ -188,7 +188,7 @@
 	}
 
 	section h2 {
-		@apply font-semibold;
+		@apply font-semibold text-lg;
 	}
 
 	section hr {
@@ -218,7 +218,7 @@
 		}
 
 		section {
-			@apply my-2;
+			@apply my-3;
 		}
 
 		section hr {

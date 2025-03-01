@@ -11,11 +11,11 @@
 <div class="work-experience">
 	<Hideable>
 		<div class="flex font-bold mb-2 print:mb-1 flex-col">
-			<div class="flex text-base">
+			<div class="flex text-lg print:text-base">
 				<div class="flex-1 text-left">{position}</div>
 				<div class="flex-1 text-right">{years.join('-')}</div>
 			</div>			
-			<div class="text-left font-normal">
+			<div class="text-left font-normal print:text-sm">
 				<a href={url} target="_blank" rel="noreferrer">{company}</a>
 			</div>
 		</div>
