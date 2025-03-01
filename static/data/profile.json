@@ -154,7 +154,7 @@
 			"details": [
 				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
 				"The app also includes an auto-delete chat history, notification system, and gifting system. Made with Express, Next.js, Firebase, and LINE API",
-				"Tested by 50 users on pitching day and later showcased in LINE Developer Thailand's podcast and a Medium blog."
+				"Tested by 50 users on pitching day and later interviewed in LINE Developer Thailand's podcast and a Medium blog."
 			]
 		}
 	],
@@ -215,6 +215,6 @@
 	"interests": ["Areas : Coding"],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/LittleNa1000/resume",
-		"fullVersion": "https://naphan-resume.vercel.app/"
+		"fullVersionLink": "https://naphan-resume.vercel.app/"
 	}
 }
