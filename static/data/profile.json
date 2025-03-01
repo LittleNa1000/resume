@@ -2,8 +2,8 @@
 	"intro": {
 		"name": "Naphan Choatchuangnapha",
 		"nickname": "Little",
-		"phone": "",
-		"email": "naphanccnp@gmail.com",
+		"phone": "0897991699",
+		"email": "naphan.ccnp@gmail.com",
 		"github": "LittleNa1000",
 		"linkedin": "naphan-choatchuangnapha-216995217",
 		"location": "Bangkok, Thailand",
@@ -12,14 +12,8 @@
 	"projects": [
 		{
 			"name": "Meet & Feat",
-			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula. Made with NestJS, Drizzle, and Google OAuth.",
+			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula as term project. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth.",
 			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
-			"hide": false
-		},
-		{
-			"name": "Warehouse of Heart",
-			"details": "Developed an interactive website contributed to Coach by ChAMP exhibition that lets users remind themselves of their goals and memories in the past to create self-reflection and discover their beings with 11,000+ visitors and 3,000 feedbacks. Made with Next.js, Framer Motion, and Tailwind.",
-			"url": "warehouseofheart.coachbychamp.com",
 			"hide": false
 		},
 		{
@@ -55,20 +49,14 @@
 		{
 			"name": "RPG Chess",
 			"details": "A 2D desktop game where chess pieces have HP and various attacks and abilities implemented using OOP. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with Java and JavaFX.",
-			"url": "github.com/LittleNa1000/rpg-chess-progmeth-project",
+			"url": "",
 			"hide": false
 		}
 	],
 	"awards": [
 		{
-			"name": "1st Place Winner of Student Track in LINE Hackathon",
-			"details": "- Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection. Made with Typescript, Node, Express, Next.js, MUI, Firebase, LINE LIFF, and LINE API.",
-			"url": "",
-			"hide": false
-		},
-		{
 			"name": "Top 32 in Thailand Online Competitive Programming Contest",
-			"details": "",
+			"details": "- out of 800+ contestants",
 			"url": "",
 			"hide": false
 		},
@@ -80,13 +68,13 @@
 		},
 		{
 			"name": "1st & 2nd International Olympiad in Informatics Camp Participant",
-			"details": "",
+			"details": "- Ranked 8th out of 25 contestants in the 1st Camp",
 			"url": "",
 			"hide": false
 		},
 		{
 			"name": "Silver medal in the 16th Thailand Olympiad in Informatics (TOI16)",
-			"details": "",
+			"details": "- Ranked 11th out of 90 contestants",
 			"url": "",
 			"hide": false
 		}
@@ -94,7 +82,7 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C/C++, Python, Java, JavaScript, TypeScript, Node.js, SQL"
+			"details": "C/C++, Python, Java, HTML, CSS, JavaScript, TypeScript, Node.js, SQL, Go"
 		},
 		{
 			"section": "Frameworks/Libraries:",
@@ -102,16 +90,16 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, Appsmith, Figma, Canva, Jira"
+			"details": "AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, Appsmith, Figma, Jira"
 		},
 		{
 			"section": "Other:",
-			"details": "OOP, Data Structures & Algorithms, REST API"
+			"details": "OOP, Data Structures & Algorithms, REST API, gRPC"
 		}
 	],
 	"workExperiences": [
 		{
-			"position": "Solution Engineer (intern)",
+			"position": "Solution Engineer (Intern)",
 			"company": "LINE Company (Thailand)",
 			"url": "https://www.line.me/en",
 			"years": ["Jan 2025", "Present"],
@@ -121,7 +109,7 @@
 			]
 		},
 		{
-			"position": "Software Developer (contract)",
+			"position": "Software Developer (Freelance)",
 			"company": "Skooldio Tech",
 			"url": "https://www.skooldio.tech",
 			"years": ["Oct 2024", "Present"],
@@ -133,21 +121,32 @@
 			"position": "Intern Researcher",
 			"company": "Japan Advanced Institute of Science and Technology",
 			"url": "https://www.jaist.ac.jp/english",
-			"years": ["Jun 2024", "July 2024"],
+			"years": ["Jun", "Jul 2024"],
 			"details": [
 				"Researched Secure Software Development Surveying at Ishikawa, Japan, with financial support from the institute",
 				"Categorized coding practices, OWASP, and CWE guidelines based on implementation steps"
 			]
 		},
 		{
-			"position": "Software Developer (intern)",
+			"position": "Software Developer (Intern)",
 			"company": "KKP Dime",
 			"url": "https://dime.co.th",
-			"years": ["Jun 2023", "July 2023"],
+			"years": ["Jun", "Jul 2023"],
 			"details": [
 				"Worked with the team of developers, QA engineers, and product owners based on Scrum process",
 				"Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.",
 				"Contributed to developing and testing Thai Stock Order and Thai Stock Account services using Go and MySQL"
+			]
+		},
+		{
+			"position": "1st Place Winner of Student Track",
+			"company": "LINE Hackathon",
+			"url": "https://medium.com/linedevth/shonma-winner-linehack2023-4081e4c522a0",
+			"years": ["Feb 2023"],
+			"details": [
+				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
+				"Pitched and tested on 50 real users.",
+				"Made with Typescript, Node, Express, Next.js, MUI, Firebase, LINE LIFF, and LINE API."
 			]
 		}
 	],
@@ -155,12 +154,12 @@
 		{
 			"position": "Senior Web Developer",
 			"company": "Engineering Student Committee, Chulalongkorn University",
-			"url": "https://github.com/esc-chula",
-			"years": ["July 2023", "Present"],
+			"url": "https://tech.intania.org",
+			"years": ["Jul 2023", "Present"],
 			"details": [
 				"Prepared and converted raw data to CSV for an orientation website with 40,000+ visitors using Python.",
-				"Developed and designed SQL database, admin tool, and backend server with CRUD, input validation, and file uploading for Intania Run website with 4,200+ registrants using Express, NeonDB, Prisma, and Appsmith.",
-				"Led a team of developers to develop a project tracker website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
+				"Developed and designed SQL database, admin tool, and Node.js server with CRUD, input validation, and file uploading for Intania Run website with 4,200+ registrants using Express, Postgres, Prisma, and Appsmith.",
+				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
 			]
 		},
 		{
@@ -173,6 +172,16 @@
 				"Planned and supervised the registration process from 1,335 applicants via the website to 300 final participants.",
 				"Developed an internal tool for the document verification process using Appsmith.",
 				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases."
+			]
+		},
+		{
+			"position": "Interactive Website Developer",
+			"company": "Warehouse of Heart Exhibition",
+			"url": "https://warehouseofheart.coachbychamp.com",
+			"years": ["Nov 2023", "Feb 2024"],
+			"details": [
+				"An interactive website that lets users remind themselves of their goals and memories in the past to create self reflection and discover their beings. Made with NextJS, Framer Motion, and Tailwind.",
+				"Gained 11,000+ visitors and 3,000 feedbacks over 3 months with an average rating of 4.4/5."
 			]
 		},
 		{
@@ -199,6 +208,6 @@
 	"interests": ["Areas : Coding"],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/LittleNa1000/resume",
-		"fullVersion": "https://resume-ashen-ten.vercel.app/"
+		"fullVersion": "https://naphan-resume.vercel.app/"
 	}
 }
