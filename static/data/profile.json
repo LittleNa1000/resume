@@ -11,6 +11,12 @@
 	},
 	"projects": [
 		{
+			"name": "KhunLook Mobile App",
+			"details": "Developed API routes using Fastify and designed MySQL database schema for streaks and achivements system in KhunLook, an app to help parents monitor children's growth, development, and health from birth to age six. In collaboration with the Ministry of Public Health and other universities.",
+			"url": "www.khunlook.com",
+			"hide": false
+		},
+		{
 			"name": "Meet & Feat",
 			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula as term project. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth.",
 			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
@@ -18,7 +24,7 @@
 		},
 		{
 			"name": "Action Plan Announcer LINE Chatbot",
-			"details": "Chatbot for announcing action plan (scheduled tasks) during a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Typescript, Node, Express, Next.js, Tailwind, Mongo Atlas, GCP, LINE LIFF, and LINE Messaging API.",
+			"details": "Chatbot for announcing action plan (scheduled tasks) during a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Typescript, Node, Express, Next.js, Tailwind, Mongo Atlas, GCP, and LINE API.",
 			"url": "github.com/esc-chula/vishnu21-ap-frontend",
 			"hide": false
 		},
@@ -68,7 +74,7 @@
 		},
 		{
 			"name": "1st & 2nd International Olympiad in Informatics Camp Participant",
-			"details": "- Ranked 8th out of 25 contestants in the 1st Camp",
+			"details": "- Ranked 8th out of 25 in the 1st Camp",
 			"url": "",
 			"hide": false
 		},
@@ -86,7 +92,7 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, NextAuth, Tailwind, MaterialUI, Shadcn, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, tRPC, GraphQL, LINE API"
+			"details": "React, Next.js, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
 		},
 		{
 			"section": "Tools:",
@@ -104,17 +110,19 @@
 			"url": "https://www.line.me/en",
 			"years": ["Jan 2025", "Present"],
 			"details": [
-				"Learned microfrontend and microservice architecture, and software development process as a large enterprise tech company",
-				"Contributed in LINE OA Plus project using Vue.js"
+				"Learned microfrontend and microservice architecture, and software development process as a large enterprise tech company.",
+				"Contributed in audience data import and chat feature in MyCustomer using Vue.js and Go.",
+				"Fixed potential vulnerabilities in LINE OA Plus using input sanitization."
 			]
 		},
 		{
 			"position": "Software Developer (Freelance)",
 			"company": "Skooldio Tech",
 			"url": "https://www.skooldio.tech",
-			"years": ["Oct 2024", "Present"],
+			"years": ["Oct 2024", "Sep 2025"],
 			"details": [
-				"Developed Planner Hub, a customized daily task scheduler and exam reminder for high school students, in TCASter mobile app using Next.js, NestJS, and GraphQL"
+				"Developed Planner Hub, a study planner with personalized daily tasks, to-do lists, and weekly progress tracking, launched in TCASter app.",
+				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with Next.js, NestJS, and GraphQL."
 			]
 		},
 		{
@@ -145,8 +153,8 @@
 			"years": ["Feb 2023"],
 			"details": [
 				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
-				"Pitched and tested on 50 real users.",
-				"Made with Typescript, Node, Express, Next.js, MUI, Firebase, LINE LIFF, and LINE API."
+				"The app also includes an auto-delete chat history, notification system, and gifting system. Made with Express, Next.js, Firebase, and LINE API",
+				"Tested by 50 users on pitching day and later showcased in LINE Developer Thailand's podcast and a Medium blog."
 			]
 		}
 	],
@@ -166,11 +174,10 @@
 			"position": "Head of Registration and Website",
 			"company": "Larngear Camp 23rd",
 			"url": "https://larngear.org",
-			"years": ["June 2023", "Jan 2024"],
+			"years": ["Jun 2023", "Jan 2024"],
 			"details": [
-				"Maintained and developed new features in the registration website using PostgreSQL, Spring, and React.",
+				"Maintained and developed new features in the registration website using PostgreSQL, Spring, and React. Developed an internal tool for the document verification process using Appsmith.",
 				"Planned and supervised the registration process from 1,335 applicants via the website to 300 final participants.",
-				"Developed an internal tool for the document verification process using Appsmith.",
 				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases."
 			]
 		},
