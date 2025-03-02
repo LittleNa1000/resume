@@ -53,6 +53,12 @@
 			"hide": false
 		},
 		{
+			"name": "CUatEvent",
+			"details": "Event management and discovery platform for clubs in Chulalongkorn using React and Firebase. Developed with a team of 6 people in Thinc. 10 Days Project.",
+			"url": "",
+			"hide": false
+		},
+		{
 			"name": "RPG Chess",
 			"details": "A 2D desktop game where chess pieces have HP and various attacks and abilities implemented using OOP. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with Java and JavaFX.",
 			"url": "",
@@ -189,16 +195,6 @@
 			"details": [
 				"An interactive website that lets users remind themselves of their goals and memories in the past to create self reflection and discover their beings. Made with NextJS, Framer Motion, and Tailwind.",
 				"Gained 11,000+ visitors and 3,000 feedbacks over 3 months with an average rating of 4.4/5."
-			]
-		},
-		{
-			"position": "Club Member",
-			"company": "Thailand Incubator (Thinc.)",
-			"url": "https://thinc.in.th",
-			"years": ["Oct 2021", "Present"],
-			"details": [
-				"Developed a redesigned Reg Chula platform using Next.js and LINE OA for a demo in HackChula 2024.",
-				"Developed a website for online voting and showing vote results using React and event management and discovery platform for clubs using React and Firebase with a team of 4-6 people in Thinc. 10 Days Project."
 			]
 		}
 	],
