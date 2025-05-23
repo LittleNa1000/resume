@@ -17,6 +17,7 @@
 		extracurricularActivities = [],
 		educations = [],
 		interests = [],
+		certificates = [],
 		awards = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
@@ -87,6 +88,24 @@
 			{#each extracurricularActivities as act}
 				<Work {...act} />
 			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each certificates as certificate}
+					<Hideable>
+						<li>
+							<strong>{certificate.head}</strong>
+							- {certificate.details}
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
 		</Hideable>
 	</section>
 

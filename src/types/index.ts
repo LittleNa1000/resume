@@ -7,6 +7,7 @@ export interface IProfileResp {
 	educations: IEducation[];
 	interests: string[];
 	awards: IProject[];
+	certificates: IEducation[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;

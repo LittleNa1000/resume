@@ -98,7 +98,7 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
+			"details": "React, Next.js, Vue.js, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
 		},
 		{
 			"section": "Tools:",
@@ -114,7 +114,7 @@
 			"position": "Solution Engineer (Intern)",
 			"company": "LINE Company (Thailand)",
 			"url": "https://www.line.me/en",
-			"years": ["Jan 2025", "Present"],
+			"years": ["Jan", "May 2025"],
 			"details": [
 				"Learned microfrontend and microservice architecture, and software development process as a large enterprise tech company.",
 				"Contributed in audience data import and chat feature in MyCustomer using Vue.js and Go.",
@@ -206,6 +206,16 @@
 		{
 			"head": "Gifted Science and Mathematics Program",
 			"details": "Assumption College, TH. 2015-2021 (GPA 3.87 with diploma)"
+		}
+	],
+	"certificates": [
+		{
+			"head": "AWS Academy Cloud Architecting (2025)",
+			"details": "AWS Academy Graduate"
+		},
+		{
+			"head": "Certified in Cybersecurity (2025)",
+			"details": "International Information System Security Certification Consortium (ISC2)"
 		}
 	],
 	"interests": ["Areas : Coding"],
