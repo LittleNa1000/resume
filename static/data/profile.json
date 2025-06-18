@@ -102,7 +102,7 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "AWS, GCP, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, Appsmith, Figma, Jira"
+			"details": "AWS, GCP, Linux, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, ngrok, Appsmith, Figma, Jira"
 		},
 		{
 			"section": "Other:",
