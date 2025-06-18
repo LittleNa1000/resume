@@ -12,31 +12,37 @@
 	"projects": [
 		{
 			"name": "KhunLook Mobile App",
-			"details": "Developed API routes using Fastify and designed MySQL database schema for streaks and achivements system in KhunLook, an app to help parents monitor children's growth, development, and health from birth to age six. In collaboration with the Ministry of Public Health and other universities.",
-			"url": "www.khunlook.com",
+			"details": "Developed API routes using Fastify and designed MySQL database schema for streaks and badges system in KhunLook, an app to help parents monitor children's growth, development, and health from birth to age six. In collaboration with the Ministry of Public Health and other universities.",
+			"url": "play.google.com/store/apps/details?id=hda.app.khunlook",
 			"hide": false
 		},
 		{
 			"name": "Meet & Feat",
-			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula as term project. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth.",
+			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula as term project. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth. Deployed on GCP.",
 			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
 			"hide": false
 		},
 		{
 			"name": "Action Plan Announcer LINE Chatbot",
-			"details": "Chatbot for announcing action plan (scheduled tasks) during a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Typescript, Node, Express, Next.js, Tailwind, Mongo Atlas, GCP, and LINE API.",
+			"details": "Chatbot for announcing action plan (scheduled tasks) during a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Typescript, Node, Express, Next.js, Tailwind, MongoDB, and LINE API. Deployed on Vercel, GCP, and Mongo Atlas.",
 			"url": "github.com/esc-chula/vishnu21-ap-frontend",
 			"hide": false
 		},
 		{
+			"name": "Nong Little LINE Chatbot",
+			"details": "Gemini-Powered Chatbot that replies positive message based on input and sends daily motivational quote to support mental health. Made with FastAPI (Python) and LINE API.",
+			"url": "github.com/Cloud-Final-Project-2024/backend",
+			"hide": false
+		},
+		{
 			"name": "Byenior",
-			"details": "Website for sending and receiving customizable letters between Intania 104 students. Made with Typescript, Bun, Next.js, Tailwind, Supabase, Prisma, and Vercel.",
+			"details": "Website for sending and receiving customizable letters between Intania 104 students. Made with Typescript, Bun, Next.js, Tailwind, Supabase, and Prisma. Deployed on Vercel.",
 			"url": "byenior.chula.engineering",
 			"hide": false
 		},
 		{
 			"name": "Magic Within",
-			"details": "Led a team of developers to develop an interactive website with minigames for users to overcome self-doubt. Made with Typescript, Bun, Next.js, Tailwind, and Framer Motion.",
+			"details": "Led a team of developers to develop an interactive website for users to overcome self-doubt. Animations, transitions, sounds, and interactive minigames is integrated. Made with Typescript, Bun, Next.js, Tailwind, and Framer Motion. Deployed on Vercel.",
 			"url": "magic-within.vercel.app",
 			"hide": false
 		},
@@ -44,12 +50,6 @@
 			"name": "Skillbridge",
 			"details": "Website for finding part-time jobs for students with a complete user flow starting from applying to receive wages. Made with Typescript, Node, Next.js, Tailwind, NextAuth, PostgreSQL, and AWS S3",
 			"url": "skillbridge-soei.vercel.app",
-			"hide": false
-		},
-		{
-			"name": "QAIR",
-			"details": "A NodeMCU project that collects CO2, CO, and PM2.5 sensor data and then displays on a website as a dashboard. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with C, Firebase, and Next.js",
-			"url": "",
 			"hide": false
 		},
 		{
@@ -98,7 +98,7 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, Vue.js, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
+			"details": "React, Next.js, Vue.js, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API, Astro"
 		},
 		{
 			"section": "Tools:",
@@ -182,7 +182,7 @@
 			"url": "https://larngear.org",
 			"years": ["Jun 2023", "Jan 2024"],
 			"details": [
-				"Maintained and developed new features in the registration website using PostgreSQL, Spring, and React. Developed an internal tool for the document verification process using Appsmith.",
+				"Developed new features in the registration website using PostgreSQL, Spring, and React. Developed an internal tool for the document verification process using Appsmith.",
 				"Planned and supervised the registration process from 1,335 applicants via the website to 300 final participants.",
 				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases."
 			]
@@ -201,7 +201,7 @@
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"details": "Chulalongkorn University, TH. 2021-present (GPA 3.54)"
+			"details": "Chulalongkorn University, TH. 2021-2025 (GPA 3.54)"
 		},
 		{
 			"head": "Gifted Science and Mathematics Program",
