@@ -159,7 +159,7 @@
 			"years": ["Feb 2023"],
 			"details": [
 				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
-				"The app also includes an auto-delete chat history, notification system, and gifting system. Made with Express, Next.js, Firebase, and LINE API",
+				"The app also includes an auto-delete chat history, notifications, and gifting system. Made with Express, Next.js, Firebase, and LINE API",
 				"Tested by 50 users on pitching day and later interviewed in LINE Developer Thailand's podcast and a Medium blog."
 			]
 		}
@@ -169,10 +169,11 @@
 			"position": "Senior Web Developer",
 			"company": "Engineering Student Committee, Chulalongkorn University",
 			"url": "https://tech.intania.org",
-			"years": ["Jul 2023", "Present"],
+			"years": ["Jul 2023", "Jun 2025"],
 			"details": [
 				"Prepared and converted raw data to CSV for an orientation website with 40,000+ visitors using Python.",
 				"Developed and designed SQL database, admin tool, and Node.js server with CRUD, input validation, and file uploading for Intania Run website with 4,200+ registrants using Express, Postgres, Prisma, and Appsmith.",
+				"Led a 12-person Operation team in Intania Hackathon. Organized mentoring sessions, mini-hack, final pitching, and opening/closing ceremonies. Developed real-time scoring system to boost engagement on activities.",
 				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
 			]
 		},

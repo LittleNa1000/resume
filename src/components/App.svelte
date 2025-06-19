@@ -137,8 +137,8 @@
 
 			<ul class="text-left list-disc pl-8">
 				{#each projects as project}
-					<Hideable hide={project.hide}>
-						<li>
+					<Hideable hide={project.hide} >
+						<li class="mb-1">
 							<strong>{project.name}</strong>
 							- {project.details}
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
@@ -177,7 +177,7 @@
 					<Hideable>
 						<li>
 							<div class="flex">
-								<span class="basis-40 inline-block shrink-0">{tech.section}</span>
+								<span class=" basis-28 inline-block shrink-0">{tech.section}</span>
 								<span>{tech.details}</span>
 							</div>
 						</li>
@@ -221,7 +221,7 @@
 
 	@media print {
 		* {
-			@apply text-xs;
+			@apply text-2xs;
 		}
 
 		:global(.print-only) {
