@@ -177,7 +177,7 @@
 					<Hideable>
 						<li>
 							<div class="flex">
-								<span class=" basis-28 inline-block shrink-0">{tech.section}</span>
+								<span class="basis-40 print:basis-28 inline-block shrink-0">{tech.section}</span>
 								<span>{tech.details}</span>
 							</div>
 						</li>
