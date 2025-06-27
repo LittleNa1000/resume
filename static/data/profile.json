@@ -67,6 +67,12 @@
 	],
 	"awards": [
 		{
+			"name": "Top 35 in GHB Open Innovation Hackathon 2025",
+			"details": "",
+			"url": "",
+			"hide": false
+		},
+		{
 			"name": "Top 32 in Thailand Online Competitive Programming Contest",
 			"details": "- out of 800+ contestants",
 			"url": "",
@@ -128,16 +134,17 @@
 			"years": ["Oct 2024", "Sep 2025"],
 			"details": [
 				"Developed Planner Hub, a study planner with personalized daily tasks, to-do lists, and weekly progress tracking, launched in TCASter app.",
-				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with Next.js, NestJS, and GraphQL."
+				"Developed MyPath+, customizable 3-year study planner with milestone tracker for high school students.",
+				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with React, NestJS, and GraphQL."
 			]
 		},
 		{
 			"position": "Intern Researcher",
-			"company": "Japan Advanced Institute of Science and Technology",
+			"company": "Japan Advanced Institute of Science and Technology (JAIST) in Ishikawa, Japan",
 			"url": "https://www.jaist.ac.jp/english",
 			"years": ["Jun", "Jul 2024"],
 			"details": [
-				"Researched Secure Software Development Surveying at Ishikawa, Japan, with financial support from the institute",
+				"Researched Secure Software Development Surveying at Japan with financial support from the institute",
 				"Categorized coding practices, OWASP, and CWE guidelines based on implementation steps"
 			]
 		},
@@ -183,9 +190,9 @@
 			"url": "https://larngear.org",
 			"years": ["Jun 2023", "Jan 2024"],
 			"details": [
-				"Developed new features in the registration website using PostgreSQL, Spring, and React. Developed an internal tool for the document verification process using Appsmith.",
 				"Planned and supervised the registration process from 1,335 applicants via the website to 300 final participants.",
-				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases."
+				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases.",
+				"Developed new features in the registration website using PostgreSQL, Spring, and React."
 			]
 		},
 		{
