@@ -17,6 +17,12 @@
 			"hide": false
 		},
 		{
+			"name": "Missing Piece Website",
+			"details": "A bilingual interactive website as part of the exhibition by Peachful Studio. Bringing story and art online with animations, sounds, transitions, and personality tests. Engaged 38K active users and reached 132K page views. Made with Astro, React, Tailwind, and Firebase. Deployed on Cloudflare.",
+			"url": "themissingpiece.peachfulstudio.com",
+			"hide": false
+		},
+		{
 			"name": "Meet & Feat",
 			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula as term project. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth. Deployed on GCP.",
 			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
@@ -24,7 +30,7 @@
 		},
 		{
 			"name": "Action Plan Announcer LINE Chatbot",
-			"details": "Chatbot for announcing action plan (scheduled tasks) during a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Typescript, Node, Express, Next.js, Tailwind, MongoDB, and LINE API. Deployed on Vercel, GCP, and Mongo Atlas.",
+			"details": "Chatbot for announcing the action plan in a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Node, Express, Next.js, Tailwind, MongoDB, and LINE API. Deployed on Vercel, GCP, and Mongo Atlas.",
 			"url": "github.com/esc-chula/vishnu21-ap-frontend",
 			"hide": false
 		},
@@ -42,7 +48,7 @@
 		},
 		{
 			"name": "Magic Within",
-			"details": "Led a team of developers to develop an interactive website for users to overcome self-doubt. Animations, transitions, sounds, and interactive minigames is integrated. Made with Typescript, Bun, Next.js, Tailwind, and Framer Motion. Deployed on Vercel.",
+			"details": "Led a team of developers to develop an interactive website for users to overcome self-doubt. Animations, transitions, sounds, and interactive minigames is integrated. Made with Bun, Next.js, Tailwind, and Framer Motion. Deployed on Vercel.",
 			"url": "magic-within.vercel.app",
 			"hide": false
 		},
@@ -53,10 +59,16 @@
 			"hide": false
 		},
 		{
+			"name": "QAIR",
+			"details": "A NodeMCU project that collects CO2, CO, and PM2.5 sensor data and then displays on a website as a dashboard. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with C, Firebase, and Next.js",
+			"url": "",
+			"hide": true
+		},
+		{
 			"name": "CUatEvent",
 			"details": "Event management and discovery platform for clubs in Chulalongkorn using React and Firebase. Developed with a team of 6 people in Thinc. 10 Days Project.",
 			"url": "",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "RPG Chess",
@@ -66,6 +78,12 @@
 		}
 	],
 	"awards": [
+		{
+			"name": "Top 15 of general track in True CyberSafe x TrueMoney Hackathon Thailand 2025",
+			"details": "- out of 89 submitted teams",
+			"url": "",
+			"hide": false
+		},
 		{
 			"name": "Top 35 in GHB Open Innovation Hackathon 2025",
 			"details": "",
@@ -104,7 +122,7 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, Vue.js, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API, Astro"
+			"details": "React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
 		},
 		{
 			"section": "Tools:",
@@ -139,8 +157,8 @@
 			]
 		},
 		{
-			"position": "Intern Researcher",
-			"company": "Japan Advanced Institute of Science and Technology (JAIST) in Ishikawa, Japan",
+			"position": "Cybersecurity Researcher (Intern)",
+			"company": "Japan Advanced Institute of Science and Technology (JAIST), Ishikawa, Japan",
 			"url": "https://www.jaist.ac.jp/english",
 			"years": ["Jun", "Jul 2024"],
 			"details": [
@@ -197,7 +215,7 @@
 		},
 		{
 			"position": "Interactive Website Developer",
-			"company": "Warehouse of Heart Exhibition",
+			"company": "Warehouse of Heart Exhibition, Coach by ChAMP",
 			"url": "https://warehouseofheart.coachbychamp.com",
 			"years": ["Nov 2023", "Feb 2024"],
 			"details": [
