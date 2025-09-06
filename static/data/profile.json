@@ -135,6 +135,16 @@
 	],
 	"workExperiences": [
 		{
+			"position": "Software Developer",
+			"company": "Playtorium Solutions Public Company Limited",
+			"url": "https://playtorium.co.th",
+			"years": ["Aug 2025", "Present"],
+			"details": [
+				"Contributed to the enterprise software system for TSFC Securities Public Company Limited. Composed the functional requirement document, detailing workflows and creating flowcharts.",
+				"Developed PlayTools, an internal web application to generate FR documents for clients using Next.js and NestJS."
+			]
+		},
+		{
 			"position": "Solution Engineer (Intern)",
 			"company": "LINE Company (Thailand)",
 			"url": "https://www.line.me/en",
