@@ -137,7 +137,7 @@
 
 			<ul class="text-left list-disc pl-8">
 				{#each projects as project}
-					<Hideable hide={project.hide} >
+					<Hideable hide={project.hide}>
 						<li class="mb-1">
 							<strong>{project.name}</strong>
 							- {project.details}
