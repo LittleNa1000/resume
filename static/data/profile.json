@@ -100,7 +100,7 @@
 			"name": "Asia-Pacific Informatics Olympiad Contestant",
 			"details": "",
 			"url": "",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "1st & 2nd International Olympiad in Informatics Camp Participant",
@@ -122,7 +122,7 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MaterialUI, shadcn/ui, Express.js, NestJS, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
+			"details": "React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, NestJS, FastAPI, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
 		},
 		{
 			"section": "Tools:",
@@ -140,8 +140,9 @@
 			"url": "https://playtorium.co.th",
 			"years": ["Aug 2025", "Present"],
 			"details": [
-				"Contributed to the enterprise software system for TSFC Securities Public Company Limited. Composed the functional requirement document, detailing workflows and creating flowcharts.",
-				"Developed PlayTools, an internal web application to generate FR documents for clients using Next.js and NestJS."
+				"Contributed to TSFC Securities Public Company Limited back-office system. Composed the FR document and creating flowcharts.",
+				"Developed PlayTools, an internal web application to generate FR documents for clients with AI integration using Next.js and NestJS.",
+				"Improved Ximpler, a cloud-hosted mobile testing platform supporting 100+ real devices, used by GSB and Krungsri Nimble. My key contribution was optimizing mobile screen streaming to support users with low network speeds. Using React, Express.js, and Appium, a cross-platform UI automation framework."
 			]
 		},
 		{
@@ -252,6 +253,10 @@
 		{
 			"head": "Certified in Cybersecurity (2025)",
 			"details": "International Information System Security Certification Consortium (ISC2)"
+		},
+		{
+			"head": "TOEIC 955 (2025)",
+			"details": "Equivalent to CEFR C1"
 		}
 	],
 	"interests": ["Areas : Coding"],
