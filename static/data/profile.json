@@ -44,7 +44,7 @@
 			"name": "Byenior",
 			"details": "Website for sending and receiving customizable letters between Intania 104 students. Made with Typescript, Bun, Next.js, Tailwind, Supabase, and Prisma. Deployed on Vercel.",
 			"url": "byenior.chula.engineering",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "Magic Within",
@@ -142,7 +142,7 @@
 			"details": [
 				"Contributed to TSFC Securities Public Company Limited back-office system. Composed the FR document and creating flowcharts.",
 				"Developed PlayTools, an internal web application to generate FR documents for clients with AI integration using Next.js and NestJS.",
-				"Improved Ximpler, a cloud-hosted mobile testing platform supporting 100+ real devices, used by GSB and Krungsri Nimble. My key contribution was optimizing mobile screen streaming to support users with low network speeds. Using React, Express.js, and Appium, a cross-platform UI automation framework."
+				"Improved Ximpler, a low-code and no-code mobile testing platform supporting 100+ real devices, used by GSB and Krungsri Nimble. My key contribution was optimizing mobile screen streaming to support users with low network speeds. Using React, Express.js, and Appium, a cross-platform UI automation framework."
 			]
 		},
 		{
@@ -195,8 +195,7 @@
 			"years": ["Feb 2023"],
 			"details": [
 				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
-				"The app also includes an auto-delete chat history, notifications, and gifting system. Made with Express, Next.js, Firebase, and LINE API",
-				"Tested by 50 users on pitching day and later interviewed in LINE Developer Thailand's podcast and a Medium blog."
+				"Demoed to 50+ users on pitching day and later interviewed in LINE Developer Thailand's podcast and a Medium blog. Made with Express, Next.js, Firebase, and LINE API"
 			]
 		}
 	],
