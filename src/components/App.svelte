@@ -111,7 +111,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Awards and Participations</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Awards</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">

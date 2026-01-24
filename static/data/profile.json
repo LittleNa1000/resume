@@ -85,10 +85,16 @@
 			"hide": false
 		},
 		{
+			"name": "Top 38 of Learn Lab Power Hackathon 2025",
+			"details": "- out of 141 submitted teams",
+			"url": "",
+			"hide": false
+		},
+		{
 			"name": "Top 35 in GHB Open Innovation Hackathon 2025",
 			"details": "",
 			"url": "",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "Top 32 in Thailand Online Competitive Programming Contest",
@@ -118,7 +124,7 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C/C++, Python, Java, HTML, CSS, JavaScript, TypeScript, Node.js, SQL, Go"
+			"details": "C/C++, Python, Java, HTML, CSS, JavaScript, TypeScript, Node.js, SQL, Go, Apps Script"
 		},
 		{
 			"section": "Frameworks/Libraries:",
@@ -142,7 +148,7 @@
 			"details": [
 				"Contributed to TSFC Securities Public Company Limited back-office system. Composed the FR document and creating flowcharts.",
 				"Developed PlayTools, an internal web application to generate FR documents for clients with AI integration using Next.js and NestJS.",
-				"Improved Ximpler, a low-code and no-code mobile testing platform supporting 100+ real devices, used by GSB and Krungsri Nimble. My key contribution was optimizing mobile screen streaming to support users with low network speeds. Using React, Express.js, and Appium, a cross-platform UI automation framework."
+				"Improved Ximpler, a low-code and no-code mobile testing platform supporting iOS and Android, used by GSB and Krungsri Nimble. My key contribution was optimizing mobile screen streaming to support users with low network speeds. Using React, Express.js, and Appium, a cross-platform UI automation framework."
 			]
 		},
 		{
@@ -173,8 +179,8 @@
 			"url": "https://www.jaist.ac.jp/english",
 			"years": ["Jun", "Jul 2024"],
 			"details": [
-				"Researched Secure Software Development Surveying at Japan with financial support from the institute",
-				"Categorized coding practices, OWASP, and CWE guidelines based on implementation steps"
+				"Researched Secure Software Development Surveying at Japan and received one of 3 financial supports from the institute",
+				"Categorized secure development practices, OWASP, and CWE guidelines based on implementation steps"
 			]
 		},
 		{
@@ -213,7 +219,7 @@
 			]
 		},
 		{
-			"position": "Head of Registration and Website",
+			"position": "Head of Registration and IT",
 			"company": "Larngear Camp 23rd",
 			"url": "https://larngear.org",
 			"years": ["Jun 2023", "Jan 2024"],
@@ -255,7 +261,7 @@
 		},
 		{
 			"head": "TOEIC 955 (2025)",
-			"details": "Equivalent to CEFR C1"
+			"details": "CEFR C1 Equivalent"
 		}
 	],
 	"interests": ["Areas : Coding"],
