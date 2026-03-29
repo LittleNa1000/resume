@@ -128,15 +128,15 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, NestJS, FastAPI, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, LINE API"
+			"details": "React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, Socket.IO, LINE SDK"
 		},
 		{
 			"section": "Tools:",
-			"details": "AWS, GCP, Linux, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, ngrok, Appsmith, Figma, Jira"
+			"details": "AWS, GCP, Linux, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, ngrok, Figma, Jira, Confluence"
 		},
 		{
 			"section": "Other:",
-			"details": "OOP, Data Structures & Algorithms, REST API, gRPC"
+			"details": "OOP, Data Structures & Algorithms, REST API, gRPC, WebSocket, OAuth"
 		}
 	],
 	"workExperiences": [
@@ -147,8 +147,12 @@
 			"years": ["Aug 2025", "Present"],
 			"details": [
 				"Contributed to TSFC Securities Public Company Limited back-office system. Composed the FR document and creating flowcharts.",
-				"Developed PlayTools, an internal web application to generate FR documents for clients with AI integration using Next.js and NestJS.",
-				"Improved Ximpler, a low-code and no-code mobile testing platform supporting iOS and Android, used by GSB and Krungsri Nimble. My key contribution was optimizing mobile screen streaming to support users with low network speeds. Using React, Express.js, and Appium, a cross-platform UI automation framework."
+				"Developed PlayTools, a web app to generate FR documents for clients with AI integration using Next.js and NestJS.",
+				"Contributed to feature ideation, UI design, development, and documentation for Ximpler, a mobile app testing platform used by GSB and Krungsri Nimble.",
+				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE.",
+				"Developed Azure AD login, iOS app profiling, and Locator System with SQL transactions.",
+				"Enabled real-time test results and device status updates via database triggers and WebSocket. Tech stack includes React, Express.js, Postgres, and Appium (cross-platform UI automation).",
+				"Impact: Improved usability and testing workflow efficiency to meet customer and business requirements."
 			]
 		},
 		{
@@ -189,7 +193,7 @@
 			"url": "https://dime.co.th",
 			"years": ["Jun", "Jul 2023"],
 			"details": [
-				"Worked with the team of developers, QA engineers, and product owners based on Scrum process",
+				"Worked with the team of developers, QA engineers, and product owners based on scrum and agile methodology",
 				"Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.",
 				"Contributed to developing and testing Thai Stock Order and Thai Stock Account services using Go and MySQL"
 			]
@@ -264,7 +268,10 @@
 			"details": "CEFR C1 Equivalent"
 		}
 	],
-	"interests": ["Areas : Coding"],
+	"interests": [
+		"Games: RoV (Silver medal in CU OPEN 2024, 2nd Place in university in 2021), Terraria, Minecraft",
+		"Hobbies: boardgames, organizing university events, joining hackathons"
+	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/LittleNa1000/resume",
 		"fullVersionLink": "https://naphan-resume.vercel.app/"

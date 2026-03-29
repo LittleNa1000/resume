@@ -151,7 +151,7 @@
 		</Hideable>
 	</section>
 
-	<!-- <section>
+	<section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
 			<hr />
@@ -166,7 +166,7 @@
 				{/each}
 			</ul>
 		</Hideable>
-	</section> -->
+	</section>
 
 	<section>
 		<Hideable>
