@@ -3,7 +3,6 @@
 	import type { IProfileResp } from '../types';
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
-	import Kofi from './Kofi.svelte';
 	import Work from './Work.svelte';
 
 	let profile: IProfileResp;
@@ -11,6 +10,7 @@
 	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
+		summary = '',
 		projects = [],
 		technologies = [],
 		workExperiences = [],
@@ -51,6 +51,16 @@
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
 	<Intro {...intro} />
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Summary</h2>
+			<hr />
+			<p class="text-lg print:text-sm text-left">
+				{summary}
+			</p>
+		</Hideable>
+	</section>
 
 	<section>
 		<Hideable>

@@ -1,5 +1,6 @@
 export interface IProfileResp {
 	intro: IIntro;
+	summary: string;
 	projects: IProject[];
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];

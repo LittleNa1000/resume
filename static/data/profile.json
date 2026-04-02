@@ -9,6 +9,7 @@
 		"location": "Bangkok, Thailand",
 		"website": ""
 	},
+	"summary": "Full-stack developer experienced in web apps, APIs, LINE Official Accounts, and LINE WebView (LIFF). Delivered multiple systems deployed to production with real users and measurable impact. Worked across roles from junior to team lead, collaborating using Agile methodologies. Seeking to build software that creates real-world value while growing in a tech career path by solving challenging problems.",
 	"projects": [
 		{
 			"name": "KhunLook Mobile App",
@@ -30,13 +31,13 @@
 		},
 		{
 			"name": "Action Plan Announcer LINE Chatbot",
-			"details": "Chatbot for announcing the action plan in a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Node, Express, Next.js, Tailwind, MongoDB, and LINE API. Deployed on Vercel, GCP, and Mongo Atlas.",
+			"details": "Chatbot for announcing the action plan in a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Node, Express, Next.js, Tailwind, MongoDB, and LINE SDK. Deployed on Vercel, GCP, and Mongo Atlas.",
 			"url": "github.com/esc-chula/vishnu21-ap-frontend",
 			"hide": false
 		},
 		{
 			"name": "Nong Little LINE Chatbot",
-			"details": "Gemini-Powered Chatbot that replies positive message based on input and sends daily motivational quote to support mental health. Made with FastAPI (Python) and LINE API.",
+			"details": "Gemini-Powered Chatbot that replies positive message based on input and sends daily motivational quote to support mental health. Made with FastAPI (Python) and LINE SDK.",
 			"url": "github.com/Cloud-Final-Project-2024/backend",
 			"hide": false
 		},
@@ -141,18 +142,16 @@
 	],
 	"workExperiences": [
 		{
-			"position": "Software Developer",
+			"position": "Full-stack Software Developer",
 			"company": "Playtorium Solutions Public Company Limited",
 			"url": "https://playtorium.co.th",
 			"years": ["Aug 2025", "Present"],
 			"details": [
-				"Contributed to TSFC Securities Public Company Limited back-office system. Composed the FR document and creating flowcharts.",
-				"Developed PlayTools, a web app to generate FR documents for clients with AI integration using Next.js and NestJS.",
-				"Contributed to feature ideation, UI design, development, and documentation for Ximpler, a mobile app testing platform used by GSB and Krungsri Nimble.",
-				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE.",
-				"Developed Azure AD login, iOS app profiling, and Locator System with SQL transactions.",
-				"Enabled real-time test results and device status updates via database triggers and WebSocket. Tech stack includes React, Express.js, Postgres, and Appium (cross-platform UI automation).",
-				"Impact: Improved usability and testing workflow efficiency to meet customer and business requirements."
+				"Contributed to TSFC Securities Public Company Limited back-office system. Composed flowcharts in the functional requirement document.",
+				"Developed PlayTools, a web app to generate functional requirement documents for clients with AI integration using Next.js and NestJS.",
+				"Contributed to feature ideation, UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI Chatbot used by GSB and Krungsri Nimble. Tech stack includes React, Express.js, Postgres, and Appium (mobile automation framework).",
+				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions. Enabled real-time test results and device status updates via database triggers and WebSocket.",
+				"Impact: Improved usability and testing efficiency through real-time updates and feedbacks, fulfilling customers and business requirements."
 			]
 		},
 		{
@@ -205,7 +204,7 @@
 			"years": ["Feb 2023"],
 			"details": [
 				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
-				"Demoed to 50+ users on pitching day and later interviewed in LINE Developer Thailand's podcast and a Medium blog. Made with Express, Next.js, Firebase, and LINE API"
+				"Demoed to 50+ users and interviewed in LINE Dev TH's podcast and a Medium blog. Made with Express, Next.js, Firebase, and LINE SDK."
 			]
 		}
 	],
