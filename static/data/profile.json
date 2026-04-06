@@ -18,14 +18,8 @@
 			"hide": false
 		},
 		{
-			"name": "Missing Piece Website",
-			"details": "A bilingual interactive website as part of the exhibition by Peachful Studio. Bringing story and art online with animations, sounds, transitions, and personality tests. Engaged 38K active users and reached 132K page views. Made with Astro, React, Tailwind, and Firebase. Deployed on Cloudflare.",
-			"url": "themissingpiece.peachfulstudio.com",
-			"hide": false
-		},
-		{
 			"name": "Meet & Feat",
-			"details": "Developed user and authentication service for Meet & Feat, a platform for discovering and joining events and clubs in Chula as term project. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth. Deployed on GCP.",
+			"details": "Developed user and authentication microservice for Meet & Feat, a platform for attending events and clubs in Chula. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth. Deployed on GCP.",
 			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
 			"hide": false
 		},
@@ -51,7 +45,7 @@
 			"name": "Magic Within",
 			"details": "Led a team of developers to develop an interactive website for users to overcome self-doubt. Animations, transitions, sounds, and interactive minigames is integrated. Made with Bun, Next.js, Tailwind, and Framer Motion. Deployed on Vercel.",
 			"url": "magic-within.vercel.app",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "Skillbridge",
@@ -73,9 +67,27 @@
 		},
 		{
 			"name": "RPG Chess",
-			"details": "A 2D desktop game where chess pieces have HP and various attacks and abilities implemented using OOP. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with Java and JavaFX.",
+			"details": "A 2D desktop game where chess pieces have HP and various abilities implemented using OOP and multi-threading. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with Java and JavaFX.",
 			"url": "",
 			"hide": false
+		}
+	],
+	"featuredAwards": [
+		{
+			"position": "Winner in Gosoft Retail Tech Hackathon",
+			"years": ["Apr 2026"],
+			"details": [
+				"Supervised tech feasibility for StoreBrain - an AI agent analyzing customer hesitation and not purchasing in stores using CCTV and POS.",
+				"Recieved 70K THB in total prize."
+			]
+		},
+		{
+			"position": "1st Place Winner of Student Track in LINE Hackathon",
+			"years": ["Feb 2023"],
+			"details": [
+				"Developed Shon-ma! - a dating app for customers in bars and pubs using LINE Beacon. Made with Express, Next.js, Firebase, and LINE SDK.",
+				"Recieved 100K THB in total prize. Gained 50+ users during the demo and interviewed in LINE Developers TH's podcast and a Medium blog."
+			]
 		}
 	],
 	"awards": [
@@ -155,6 +167,16 @@
 			]
 		},
 		{
+			"position": "Full-stack Developer (Freelance)",
+			"company": "Peachful Studio",
+			"url": "themissingpiece.peachfulstudio.com",
+			"years": ["May", "Jun 2025"],
+			"details": [
+				"Led development of the bilingual interactive website for The Missing Piece exhibition. Implemented animations, sounds, and feedback form.",
+				"Engaged 38K active users and reached 132K page views. Made with Astro, React, Tailwind, and Firebase. Deployed on Cloudflare."
+			]
+		},
+		{
 			"position": "Solution Engineer (Intern)",
 			"company": "LINE Company (Thailand)",
 			"url": "https://www.line.me/en",
@@ -195,16 +217,6 @@
 				"Worked with the team of developers, QA engineers, and product owners based on scrum and agile methodology",
 				"Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.",
 				"Contributed to developing and testing Thai Stock Order and Thai Stock Account services using Go and MySQL"
-			]
-		},
-		{
-			"position": "1st Place Winner of Student Track",
-			"company": "LINE Hackathon",
-			"url": "https://medium.com/linedevth/shonma-winner-linehack2023-4081e4c522a0",
-			"years": ["Feb 2023"],
-			"details": [
-				"Developed Shon-ma!, a dating app that allows users to match with others in the same bar using LINE Beacon for location detection.",
-				"Demoed to 50+ users and interviewed in LINE Dev TH's podcast and a Medium blog. Made with Express, Next.js, Firebase, and LINE SDK."
 			]
 		}
 	],

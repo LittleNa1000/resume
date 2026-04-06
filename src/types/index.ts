@@ -7,6 +7,7 @@ export interface IProfileResp {
 	extracurricularActivities: IWorkExperience[];
 	educations: IEducation[];
 	interests: string[];
+	featuredAwards: IFeaturedAward[];
 	awards: IProject[];
 	certificates: IEducation[];
 	resumeUrl: {
@@ -48,4 +49,10 @@ export interface IWorkExperience {
 export interface IEducation {
 	head: string;
 	details: string;
+}
+
+export interface IFeaturedAward {
+	position: string;
+	years: string[];
+	details: string[];
 }

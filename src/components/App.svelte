@@ -4,6 +4,7 @@
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
 	import Work from './Work.svelte';
+	import FeaturedAward from './FeaturedAward.svelte';
 
 	let profile: IProfileResp;
 
@@ -18,6 +19,7 @@
 		educations = [],
 		interests = [],
 		certificates = [],
+		featuredAwards = [],
 		awards = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
@@ -81,7 +83,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Experiences</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experiences</h2>
 			<hr />
 
 			{#each workExperiences as exp}
@@ -124,19 +126,21 @@
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Awards</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
+			{#each featuredAwards as featAward}
+				<FeaturedAward {...featAward} />
+			{/each}
+
+			<div class="text-left">
 				{#each awards as award}
 					<Hideable hide={award.hide}>
-						<li>
-							<strong>{award.name}</strong>
-							{award.details}
-							<a href="https://{award.url}" target="_blank" rel="noreferrer"
-								><strong>{award.url}</strong></a
-							>
-						</li>
+						<strong>{award.name}</strong>
+						{award.details}
+						<a href="https://{award.url}" target="_blank" rel="noreferrer"
+							><strong>{award.url}</strong></a
+						>
 					</Hideable>
 				{/each}
-			</ul>
+			</div>
 		</Hideable>
 	</section>
 
