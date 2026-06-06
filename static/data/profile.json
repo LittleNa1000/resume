@@ -137,15 +137,15 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C/C++, Python, Java, HTML, CSS, JavaScript, TypeScript, Node.js, SQL, Go, Apps Script"
+			"details": "C/C++, Python, Java, HTML, CSS, JavaScript, TypeScript, SQL, Go, Apps Script"
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, Socket.IO, LINE SDK"
+			"details": "Node.js, React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, Socket.IO, LINE SDK, Playwright"
 		},
 		{
 			"section": "Tools:",
-			"details": "AWS, GCP, Linux, Firebase, Vercel, Git, GitHub, Docker, Kubernetes, RabbitMQ, ngrok, Figma, Jira, Confluence"
+			"details": "AWS, GCP, Linux, Firebase, Vercel, Git, GitHub, GitLab, Docker, Kubernetes, ngrok, Figma, Jira, Confluence, Postman, GitHub Copilot, Claude Code, Cursor"
 		},
 		{
 			"section": "Other:",
