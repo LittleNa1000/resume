@@ -49,6 +49,7 @@ export interface IWorkExperience {
 export interface IEducation {
 	head: string;
 	details: string;
+	hide: boolean;
 }
 
 export interface IFeaturedAward {

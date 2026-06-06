@@ -71,7 +71,7 @@
 
 			<ul class="text-left list-disc pl-8">
 				{#each educations as edu}
-					<Hideable>
+					<Hideable hide={edu.hide}>
 						<li>
 							<strong>{edu.head}</strong>, {edu.details}
 						</li>

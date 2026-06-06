@@ -161,7 +161,7 @@
 			"details": [
 				"Contributed to TSFC Securities Public Company Limited back-office system. Composed flowcharts in the functional requirement document.",
 				"Developed PlayTools, a web app to generate functional requirement documents for clients with AI integration using Next.js and NestJS.",
-				"Contributed to feature ideation, UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI Chatbot used by GSB and Krungsri Nimble. Tech stack includes React, Express.js, Postgres, and Appium (mobile automation framework).",
+				"Contributed to feature ideation, UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI Chatbot used by GSB and Krungsri Nimble. Tech stack includes React, Express.js, Postgres, Playwright, and Appium (mobile automation framework).",
 				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions. Enabled real-time test results and device status updates via database triggers and WebSocket.",
 				"Impact: Improved usability and testing efficiency through real-time updates and feedbacks, fulfilling customers and business requirements."
 			]
@@ -262,7 +262,8 @@
 		},
 		{
 			"head": "Gifted Science and Mathematics Program",
-			"details": "Assumption College, TH. 2015-2021 (GPA 3.87 with diploma)"
+			"details": "Assumption College, TH. 2015-2021 (GPA 3.87 with diploma)",
+			"hide": true
 		}
 	],
 	"certificates": [
