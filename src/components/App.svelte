@@ -3,6 +3,7 @@
 	import type { IProfileResp } from '../types';
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
+	import PrintPageBreak from './PrintPageBreak.svelte';
 	import Work from './Work.svelte';
 	import FeaturedAward from './FeaturedAward.svelte';
 
@@ -66,6 +67,36 @@
 
 	<section>
 		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experiences</h2>
+			<hr />
+
+			{#each workExperiences as exp}
+				<Work {...exp} />
+			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<hr />
+			<ul class="text-left list-disc pl-8">
+				{#each technologies as tech}
+					<Hideable>
+						<li>
+							<div class="flex">
+								<span class="basis-40 print:basis-28 inline-block shrink-0">{tech.section}</span>
+								<span>{tech.details}</span>
+							</div>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
 			<hr />
 
@@ -81,14 +112,26 @@
 		</Hideable>
 	</section>
 
+	<PrintPageBreak />
+
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experiences</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
 			<hr />
 
-			{#each workExperiences as exp}
-				<Work {...exp} />
-			{/each}
+			<ul class="text-left list-disc pl-8">
+				{#each projects as project}
+					<Hideable hide={project.hide}>
+						<li class="mb-1">
+							<strong>{project.name}</strong>
+							- {project.details}
+							<a href="https://{project.url}" target="_blank" rel="noreferrer"
+								><strong>{project.url}</strong></a
+							>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
 		</Hideable>
 	</section>
 
@@ -146,27 +189,6 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
-			<hr />
-
-			<ul class="text-left list-disc pl-8">
-				{#each projects as project}
-					<Hideable hide={project.hide}>
-						<li class="mb-1">
-							<strong>{project.name}</strong>
-							- {project.details}
-							<a href="https://{project.url}" target="_blank" rel="noreferrer"
-								><strong>{project.url}</strong></a
-							>
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
 			<hr />
 
@@ -175,25 +197,6 @@
 					<Hideable>
 						<li>
 							{interest}
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
-			<hr />
-			<ul class="text-left list-disc pl-8">
-				{#each technologies as tech}
-					<Hideable>
-						<li>
-							<div class="flex">
-								<span class="basis-40 print:basis-28 inline-block shrink-0">{tech.section}</span>
-								<span>{tech.details}</span>
-							</div>
 						</li>
 					</Hideable>
 				{/each}

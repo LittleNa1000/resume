@@ -9,37 +9,43 @@
 		"location": "Bangkok, Thailand",
 		"website": ""
 	},
-	"summary": "Full-stack developer experienced in web apps, APIs, LINE Official Accounts, and LINE WebView (LIFF). Delivered multiple systems deployed to production with real users and measurable impact. Worked across roles from junior to team lead, collaborating using Agile methodologies. Seeking to build software that creates real-world value while growing in a tech career path by solving challenging problems.",
+	"summary": "Software developer experienced in web apps, APIs, LINE Official Accounts, and LINE WebView (LIFF). Delivered multiple systems deployed to production with real users and measurable impact. Worked across roles from junior to team lead, collaborating using Agile methodologies. Seeking to build software that creates real-world value while growing in a tech career path by solving challenging problems.",
 	"projects": [
 		{
 			"name": "KhunLook Mobile App",
-			"details": "Developed API routes using Fastify and designed MySQL database schema for streaks and badges system in KhunLook, an app to help parents monitor children's growth, development, and health from birth to age six. In collaboration with the Ministry of Public Health and other universities.",
+			"details": "Developed API routes using Fastify and designed MySQL database schema for streaks and badges system in KhunLook, an app to help parents monitor children's growth and well-being since birth with 500,000+ downloads. In collaboration with the Ministry of Public Health and other universities.",
 			"url": "play.google.com/store/apps/details?id=hda.app.khunlook",
 			"hide": false
 		},
 		{
 			"name": "Meet & Feat",
 			"details": "Developed user and authentication microservice for Meet & Feat, a platform for attending events and clubs in Chula. Demoed and presented to instructors as a term project, resulting in an A grade. Made with NestJS, Drizzle, and Google OAuth. Deployed on GCP.",
-			"url": "github.com/SoftwareArch-BackstreetBoys/user-service",
+			"url": "",
 			"hide": false
 		},
 		{
 			"name": "Action Plan Announcer LINE Chatbot",
 			"details": "Chatbot for announcing the action plan in a long large-scale event. Used by 120+ staff during an actual event, resulting in an increased accuracy of executing tasks on time. Made with Node, Express, Next.js, Tailwind, MongoDB, and LINE SDK. Deployed on Vercel, GCP, and Mongo Atlas.",
-			"url": "github.com/esc-chula/vishnu21-ap-frontend",
+			"url": "liff.line.me/2002455936-4ejKkNNz",
+			"hide": false
+		},
+		{
+			"name": "Larngear Camp Website",
+			"details": "Maintain the website and the production database with 3,400+ registered users. Developed new features using PostgreSQL, Spring, and React.",
+			"url": "larngear.org",
 			"hide": false
 		},
 		{
 			"name": "Nong Little LINE Chatbot",
 			"details": "Gemini-Powered Chatbot that replies positive message based on input and sends daily motivational quote to support mental health. Made with FastAPI (Python) and LINE SDK.",
-			"url": "github.com/Cloud-Final-Project-2024/backend",
+			"url": "",
 			"hide": false
 		},
 		{
 			"name": "Byenior",
-			"details": "Website for sending and receiving customizable letters between Intania 104 students. Made with Typescript, Bun, Next.js, Tailwind, Supabase, and Prisma. Deployed on Vercel.",
+			"details": "Website for sending and receiving customizable letters between Intania 104 students. Made with Typescript, Bun, Next.js, Tailwind, NextAuth, Supabase, Prisma, and Google OAuth. Deployed on Vercel.",
 			"url": "byenior.chula.engineering",
-			"hide": true
+			"hide": false
 		},
 		{
 			"name": "Magic Within",
@@ -55,7 +61,7 @@
 		},
 		{
 			"name": "QAIR",
-			"details": "A NodeMCU project that collects CO2, CO, and PM2.5 sensor data and then displays on a website as a dashboard. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with C, Firebase, and Next.js",
+			"details": "A NodeMCU project that collects CO2, CO, and PM2.5 sensor data using C and Firebase. Then displays on a website as a dashboard. Demoed and presented to instructors as a final term project, resulting in an A grade.",
 			"url": "",
 			"hide": true
 		},
@@ -69,7 +75,7 @@
 			"name": "RPG Chess",
 			"details": "A 2D desktop game where chess pieces have HP and various abilities implemented using OOP and multi-threading. Demoed and presented to instructors as a final term project, resulting in an A grade. Made with Java and JavaFX.",
 			"url": "",
-			"hide": false
+			"hide": true
 		}
 	],
 	"featuredAwards": [
@@ -95,13 +101,13 @@
 			"name": "Top 15 of general track in True CyberSafe x TrueMoney Hackathon Thailand 2025",
 			"details": "- out of 89 submitted teams",
 			"url": "",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "Top 38 of Learn Lab Power Hackathon 2025",
 			"details": "- out of 141 submitted teams",
 			"url": "",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "Top 35 in GHB Open Innovation Hackathon 2025",
@@ -141,7 +147,11 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "Node.js, React, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, MongoDB, Postgres, Prisma, TypeORM, Drizzle, tRPC, GraphQL, Socket.IO, LINE SDK, Playwright"
+			"details": "Node.js, React, Redux, React Query, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, tRPC, GraphQL, Socket.IO, LINE SDK, Playwright"
+		},
+		{
+			"section": "Databases:",
+			"details": "MongoDB, Postgres, Prisma, TypeORM, Drizzle, DBeaver, pgAdmin"
 		},
 		{
 			"section": "Tools:",
@@ -154,22 +164,25 @@
 	],
 	"workExperiences": [
 		{
-			"position": "Full-stack Software Developer",
+			"position": "Software Developer",
 			"company": "Playtorium Solutions Public Company Limited",
 			"url": "https://playtorium.co.th",
 			"years": ["Aug 2025", "Present"],
 			"details": [
-				"Contributed to TSFC Securities Public Company Limited back-office system. Composed flowcharts in the functional requirement document.",
-				"Developed PlayTools, a web app to generate functional requirement documents for clients with AI integration using Next.js and NestJS.",
-				"Contributed to feature ideation, UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI Chatbot used by GSB and Krungsri Nimble. Tech stack includes React, Express.js, Postgres, Playwright, and Appium (mobile automation framework).",
+				"Contributed to feature ideation, UX/UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI used by GSB, SCB TechX, and Krungsri Nimble. Made with React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
+				"Impact: Improved usability and testing efficiency through real-time updates and feedbacks, fulfilling customers and business requirements.",
+				"Wrote CLAUDE.md and SKILLS.md as a guideline for the team and AIs to collaborate effectively.",
+				"Optimized the performance by caching queries and reduce refetching data using React Query.",
 				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions. Enabled real-time test results and device status updates via database triggers and WebSocket.",
-				"Impact: Improved usability and testing efficiency through real-time updates and feedbacks, fulfilling customers and business requirements."
+				"Created Ximpler Chrome Extension to capture users' actions and generate test scripts using React, Antd, and WXT.",
+				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system.",
+				"Developed PlayTools, a web app to generate functional requirement documents for clients with AI integration using Next.js and NestJS."
 			]
 		},
 		{
-			"position": "Full-stack Developer (Freelance)",
+			"position": "Software Developer (Freelance)",
 			"company": "Peachful Studio",
-			"url": "themissingpiece.peachfulstudio.com",
+			"url": "https://themissingpiece.peachfulstudio.com",
 			"years": ["May", "Jun 2025"],
 			"details": [
 				"Led development of the bilingual interactive website for The Missing Piece exhibition. Implemented animations, sounds, and feedback form.",
@@ -195,7 +208,7 @@
 			"details": [
 				"Developed Planner Hub, a study planner with personalized daily tasks, to-do lists, and weekly progress tracking, launched in TCASter app.",
 				"Developed MyPath+, customizable 3-year study planner with milestone tracker for high school students.",
-				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with React, NestJS, and GraphQL."
+				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with React, MUI, NestJS, and GraphQL."
 			]
 		},
 		{
@@ -222,13 +235,13 @@
 	],
 	"extracurricularActivities": [
 		{
-			"position": "Senior Web Developer",
+			"position": "Senior Software Developer",
 			"company": "Engineering Student Committee, Chulalongkorn University",
 			"url": "https://tech.intania.org",
 			"years": ["Jul 2023", "Jun 2025"],
 			"details": [
 				"Prepared and converted raw data to CSV for an orientation website with 40,000+ visitors using Python.",
-				"Developed and designed SQL database, admin tool, and Node.js server with CRUD, input validation, and file uploading for Intania Run website with 4,200+ registrants using Express, Postgres, Prisma, and Appsmith.",
+				"Developed Intania Run website with 4,200+ registrants. Designed SQL database, admin tool, and Node.js server with CRUD, input validation, and file uploading using Express, Postgres, Prisma, and Appsmith.",
 				"Led a 12-person Operation team in Intania Hackathon. Organized mentoring sessions, mini-hack, final pitching, and opening/closing ceremonies. Developed real-time scoring system to boost engagement on activities.",
 				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
 			]
@@ -242,10 +255,11 @@
 				"Planned and supervised the registration process from 1,335 applicants via the website to 300 final participants.",
 				"Recruited and led a team of 20, organized and distributed tasks among the team, created a collaborative environment, and guided team members during the preparation and execution phases.",
 				"Developed new features in the registration website using PostgreSQL, Spring, and React."
-			]
+			],
+			"hide": true
 		},
 		{
-			"position": "Interactive Website Developer",
+			"position": "Website Developer",
 			"company": "Warehouse of Heart Exhibition, Coach by ChAMP",
 			"url": "https://warehouseofheart.coachbychamp.com",
 			"years": ["Nov 2023", "Feb 2024"],
@@ -258,11 +272,11 @@
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"details": "Chulalongkorn University, TH. 2021-2025 (GPA 3.56, Second Class Honors)"
+			"details": "Chulalongkorn University, TH. (GPA 3.56, Second Class Honors)"
 		},
 		{
 			"head": "Gifted Science and Mathematics Program",
-			"details": "Assumption College, TH. 2015-2021 (GPA 3.87 with diploma)",
+			"details": "Assumption College, TH. (GPA 3.87 with diploma)",
 			"hide": true
 		}
 	],
