@@ -147,7 +147,7 @@
 		},
 		{
 			"section": "Frameworks/Libraries:",
-			"details": "Node.js, React, Redux, React Query, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, tRPC, GraphQL, Socket.IO, LINE SDK, Playwright"
+			"details": "Node.js, React, Redux, React Query, Next.js, Vue.js, Astro, NextAuth, Tailwind, MUI, shadcn/ui, Antd, Express.js, Fastify, NestJS, FastAPI, tRPC, GraphQL, Socket.IO, LINE SDK, Playwright, RabbitMQ"
 		},
 		{
 			"section": "Databases:",
@@ -226,7 +226,7 @@
 			"url": "https://dime.co.th",
 			"years": ["Jun", "Jul 2023"],
 			"details": [
-				"Contributed to building and testing Thai Stock Order and Thai Stock Account microservices using Go and MySQL",
+				"Contributed to building and testing Thai Stock Order and Thai Stock Account microservices using Go, MySQL, and RabbitMQ.",
 				"Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.",
 				"Worked with the team of developers, QA engineers, and product owners based on scrum and agile methodology"
 			]
