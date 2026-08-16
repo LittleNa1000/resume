@@ -207,7 +207,7 @@
 			"details": [
 				"Developed Planner Hub for TCASter app. A study planner with personalized daily tasks, to-do lists, and weekly progress tracking.",
 				"Developed MyPathPlus for Learn Anywhere app. A customizable 3-year study planner with milestone tracker.",
-				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with React, MUI, NestJS, and GraphQL."
+				"Ensure quality through unit testing via vitest. Made with React, MUI, NestJS, and GraphQL."
 			]
 		},
 		{
