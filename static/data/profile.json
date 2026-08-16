@@ -169,10 +169,10 @@
 			"url": "https://playtorium.co.th",
 			"years": ["Aug 2025", "Present"],
 			"details": [
-				"Improved usability and testing efficiency for Ximpler, an AI-integrated testing platform used by GSB, SCB TechX, and Krungsri Nimble. By implementing real-time updates and feedbacks using SSE, WebSocket, and database triggers.",
+				"Improved usability and testing efficiency for Ximpler, an AI-integrated testing platform used by GSB, SCB TechX, and Krungsri Nimble. By implementing recorder and runner for browser tests, Locator System with SQL transactions and real-time updates and feedbacks using SSE, WebSocket, and database triggers.",
 				"Improved team and AI tools collaboration by authoring CLAUDE.md and SKILLS.md as project guidelines.",
 				"Reduced redundant data fetching and improved performance by implementing query caching and refetch optimization using React Query.",
-				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions.",
+				"Enabled secure authentication by developing Azure Active Directory login flow.",
 				"Contributed through feature ideation, UX/UI design, implementation, and documentation using React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
 				"Created Ximpler Chrome Extension to capture users' actions and generate test scripts using React, Antd, and WXT.",
 				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system."
