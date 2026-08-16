@@ -143,7 +143,7 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C/C++, Python, Java, HTML, CSS, JavaScript, TypeScript, SQL, Go, Apps Script"
+			"details": "Python, TypeScript, SQL, Go, HTML, CSS, JavaScript, C/C++, Java, Apps Script"
 		},
 		{
 			"section": "Frameworks/Libraries:",
@@ -169,11 +169,11 @@
 			"url": "https://playtorium.co.th",
 			"years": ["Aug 2025", "Present"],
 			"details": [
-				"Contributed to feature ideation, UX/UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI used by GSB, SCB TechX, and Krungsri Nimble. Made with React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
-				"Impact: Improved usability and testing efficiency through real-time updates and feedbacks, fulfilling customers and business requirements.",
+				"Improved usability and testing efficiency for Ximpler, an AI-integrated testing platform used by GSB, SCB TechX, and Krungsri Nimble. By implementing real-time updates and feedbacks using SSE, WebSocket, and database triggers.",
 				"Improved team and AI tools collaboration by authoring CLAUDE.md and SKILLS.md as project guidelines.",
 				"Reduced redundant data fetching and improved performance by implementing query caching and refetch optimization using React Query.",
-				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions. Enabled real-time test results and device status updates via database triggers and WebSocket.",
+				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions.",
+				"Contributed through feature ideation, UX/UI design, implementation, and documentation using React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
 				"Created Ximpler Chrome Extension to capture users' actions and generate test scripts using React, Antd, and WXT.",
 				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system."
 			]
@@ -194,8 +194,8 @@
 			"url": "https://www.line.me/en",
 			"years": ["Jan", "May 2025"],
 			"details": [
-				"Learned microfrontend and microservice architecture, and software development process as a large enterprise tech company.",
-				"Contributed in audience data import and chat feature in MyCustomer using Vue.js and Go.",
+				"Contributed to audience data import function using Go within microservice architecture.",
+				"Built chat features for MyCustomer using Vue.js within microfrontend architecture.",
 				"Reduced security risk in LINE OA Plus by fixing input validation vulnerabilities."
 			]
 		},
