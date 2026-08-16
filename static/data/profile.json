@@ -9,7 +9,7 @@
 		"location": "Bangkok, Thailand",
 		"website": ""
 	},
-	"summary": "Software developer experienced in web apps, APIs, LINE Official Accounts, and LINE WebView (LIFF). Delivered multiple systems deployed to production with real users and measurable impact. Worked across roles from junior to team lead, collaborating using Agile methodologies. Seeking to build software that creates real-world value while growing in a tech career path by solving challenging problems.",
+	"summary": "Software developer experienced in web apps, APIs, microservices, and LINE OAs. Delivered multiple production systems with real users and measurable impact. Worked across roles from junior, senior, to team lead. Familiar with Agile methodology and CI/CD workflows. Seeking to build software that creates real-world value while growing in a tech career path through solving challenging problems.",
 	"projects": [
 		{
 			"name": "KhunLook Mobile App",
@@ -171,12 +171,11 @@
 			"details": [
 				"Contributed to feature ideation, UX/UI design, development, and documentation for Ximpler, a mobile app testing platform integrated with AI used by GSB, SCB TechX, and Krungsri Nimble. Made with React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
 				"Impact: Improved usability and testing efficiency through real-time updates and feedbacks, fulfilling customers and business requirements.",
-				"Wrote CLAUDE.md and SKILLS.md as a guideline for the team and AIs to collaborate effectively.",
-				"Optimized the performance by caching queries and reduce refetching data using React Query.",
+				"Improved team and AI tools collaboration by authoring CLAUDE.md and SKILLS.md as project guidelines.",
+				"Reduced redundant data fetching and improved performance by implementing query caching and refetch optimization using React Query.",
 				"Enhanced the Inspector Page with adaptive screen resolution based on real-time network speed and real-time test feedback with error logs from devices using SSE. Developed Azure Active Directory login, iOS app profiling, and Locator System with SQL transactions. Enabled real-time test results and device status updates via database triggers and WebSocket.",
 				"Created Ximpler Chrome Extension to capture users' actions and generate test scripts using React, Antd, and WXT.",
-				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system.",
-				"Developed PlayTools, a web app to generate functional requirement documents for clients with AI integration using Next.js and NestJS."
+				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system."
 			]
 		},
 		{
@@ -197,7 +196,7 @@
 			"details": [
 				"Learned microfrontend and microservice architecture, and software development process as a large enterprise tech company.",
 				"Contributed in audience data import and chat feature in MyCustomer using Vue.js and Go.",
-				"Fixed potential vulnerabilities in LINE OA Plus using input sanitization."
+				"Reduced security risk in LINE OA Plus by fixing input validation vulnerabilities."
 			]
 		},
 		{
@@ -206,8 +205,8 @@
 			"url": "https://www.skooldio.tech",
 			"years": ["Oct 2024", "Jul 2025"],
 			"details": [
-				"Developed Planner Hub, a study planner with personalized daily tasks, to-do lists, and weekly progress tracking, launched in TCASter app.",
-				"Developed MyPath+, customizable 3-year study planner with milestone tracker for high school students.",
+				"Developed Planner Hub for TCASter app. A study planner with personalized daily tasks, to-do lists, and weekly progress tracking.",
+				"Developed MyPathPlus for Learn Anywhere app. A customizable 3-year study planner with milestone tracker.",
 				"Aims to help students organize their exam preparation consistently and achieve academic goals. Made with React, MUI, NestJS, and GraphQL."
 			]
 		},
@@ -217,7 +216,7 @@
 			"url": "https://www.jaist.ac.jp/english",
 			"years": ["Jun", "Jul 2024"],
 			"details": [
-				"Researched Secure Software Development Surveying at Japan and received one of 3 financial supports from the institute",
+				"Received one of 3 intern funds from the institute to research Secure Software Development Surveying at Japan.",
 				"Categorized secure development practices, OWASP, and CWE guidelines based on implementation steps"
 			]
 		},
@@ -227,9 +226,9 @@
 			"url": "https://dime.co.th",
 			"years": ["Jun", "Jul 2023"],
 			"details": [
-				"Worked with the team of developers, QA engineers, and product owners based on scrum and agile methodology",
+				"Contributed to building and testing Thai Stock Order and Thai Stock Account microservices using Go and MySQL",
 				"Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.",
-				"Contributed to developing and testing Thai Stock Order and Thai Stock Account services using Go and MySQL"
+				"Worked with the team of developers, QA engineers, and product owners based on scrum and agile methodology"
 			]
 		}
 	],
@@ -240,9 +239,9 @@
 			"url": "https://tech.intania.org",
 			"years": ["Jul 2023", "Jun 2025"],
 			"details": [
-				"Prepared and converted raw data to CSV for an orientation website with 40,000+ visitors using Python.",
-				"Developed Intania Run website with 4,200+ registrants. Designed SQL database, admin tool, and Node.js server with CRUD, input validation, and file uploading using Express, Postgres, Prisma, and Appsmith.",
-				"Led a 12-person Operation team in Intania Hackathon. Organized mentoring sessions, mini-hack, final pitching, and opening/closing ceremonies. Developed real-time scoring system to boost engagement on activities.",
+				"Reduce data preparation time for 40,000+ visitors orientation website by converting raw data to CSV using Python.",
+				"Developed Intania Run website with 4,200+ registrants. Designed SQL schema, admin tool, and Node.js server with CRUD, input validation, and file uploading using Express, Postgres, Prisma, and Appsmith.",
+				"Led a 12-person Operation team in Intania Hackathon to organize mentoring sessions, mini-hack, final pitching, and opening/closing ceremonies. Developed real-time scoring system to boost engagement on activities.",
 				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
 			]
 		},
