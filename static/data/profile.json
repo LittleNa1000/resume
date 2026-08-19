@@ -195,7 +195,7 @@
 			"years": ["Jan", "May 2025"],
 			"details": [
 				"Contributed to audience data import function using Go within microservice architecture.",
-				"Built chat features for MyCustomer using Vue.js within microfrontend architecture.",
+				"Built chat features for MyCustomer using Vue.js within microfrontend architecture. Monitored errors using Sentry.",
 				"Reduced security risk in LINE OA Plus by fixing input validation vulnerabilities."
 			]
 		},
