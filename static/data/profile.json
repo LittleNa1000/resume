@@ -242,7 +242,7 @@
 				"Reduce data preparation time for 40,000+ visitors orientation website by converting raw data to CSV using Python.",
 				"Developed Intania Run website with 4,200+ registrants. Designed SQL schema, admin tool, and Node.js server with CRUD, input validation, and file uploading using Express, Postgres, Prisma, and Appsmith.",
 				"Led a 12-person Operation team in Intania Hackathon to organize mentoring sessions, mini-hack, final pitching, and opening/closing ceremonies. Developed real-time scoring system to boost engagement on activities.",
-				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, NestJS, and PostgreSQL."
+				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, tRPC, NestJS, and PostgreSQL."
 			]
 		},
 		{
