@@ -174,7 +174,7 @@
 				"Reduced redundant data fetching and improved performance by implementing query caching and refetch optimization using React Query.",
 				"Enabled secure authentication by developing Azure Active Directory login flow.",
 				"Contributed through feature ideation, UX/UI design, implementation, and documentation using React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
-				"Created Ximpler Chrome Extension to capture users' actions and generate test scripts using React, Antd, and WXT.",
+				"Expanded Ximpler to B2C users by publishing a Chrome Extension integrated with the core platform using React, Antd, and WXT.",
 				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system."
 			]
 		},
