@@ -234,15 +234,27 @@
 	],
 	"extracurricularActivities": [
 		{
+			"position": "Program Lead & Head of Mentee Selection",
+			"company": "ChAMP Engineering",
+			"url": "https://www.instagram.com/champengcu/",
+			"years": ["May 2026", "Present"],
+			"details": [
+				"Led a 45-person organizing committee to plan and execute 50+ events on a 1.2M THB budget within 1 year, delivering a mentorship program that pairs 72 mentees with 36 mentors and sustaining a career consult center across 5 tracks.",
+				"Led a 7-person team to plan and execute the mentee selection process from 308 applicants down to 72 mentees with 4.7/5 satisfaction score.",
+				"Gained 516 active users and 1,450+ page views in 23 days by creating champeng.site, an application preparation checklist, as project manager."
+			],
+			"hide": true
+		},
+		{
 			"position": "Senior Software Developer",
 			"company": "Engineering Student Committee, Chulalongkorn University",
 			"url": "https://tech.intania.org",
 			"years": ["Jul 2023", "Jun 2025"],
 			"details": [
 				"Reduce data preparation time for 40,000+ visitors orientation website by converting raw data to CSV using Python.",
-				"Developed Intania Run website with 4,200+ registrants. Designed SQL schema, admin tool, and Node.js server with CRUD, input validation, and file uploading using Express, Postgres, Prisma, and Appsmith.",
+				"Developed Intania Run website with 4,200+ registrants. Designed SQL schema and a server using Express, Postgres, and Prisma.",
 				"Led a 12-person Operation team in Intania Hackathon to organize mentoring sessions, mini-hack, final pitching, and opening/closing ceremonies. Developed real-time scoring system to boost engagement on activities.",
-				"Led a team of developers and designers to develop a project tracking website to facilitate the internal document process in the organization using Next.js, Tailwind, tRPC, NestJS, and PostgreSQL."
+				"Led developers and designers to build a project tracking website for the organization with Next.js, Tailwind, tRPC, NestJS, and PostgreSQL."
 			]
 		},
 		{
