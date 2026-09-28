@@ -11,12 +11,12 @@
 
 <div class="work-experience">
 	<Hideable {hide}>
-		<div class="flex font-bold mb-2 print:mb-1 flex-col">
-			<div class="flex text-lg print:text-[15px] print:leading-[22px]">
+		<div class="flex font-bold mb-2 print:mb-0.5 flex-col">
+			<div class="flex text-xl print:text-sm print:leading-4">
 				<div class="flex-1 text-left">{position}</div>
 				<div class="flex-1 text-right">{years.join('-')}</div>
 			</div>
-			<div class="text-left font-normal print:text-sm">
+			<div class="text-left text-xl font-normal print:text-sm">
 				<a href={url} target="_blank" rel="noreferrer">{company}</a>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 
 	@media print {
 		.work-experience {
-			@apply my-1;
+			@apply my-1.5;
 		}
 	}
 </style>

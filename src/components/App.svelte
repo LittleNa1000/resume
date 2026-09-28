@@ -57,7 +57,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Summary</h2>
+			<h2 class="text-2xl uppercase text-left">Summary</h2>
 			<hr />
 			<p class="text-lg print:text-sm text-left">
 				{summary}
@@ -67,7 +67,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experiences</h2>
+			<h2 class="text-2xl uppercase text-left">Work Experiences</h2>
 			<hr />
 
 			{#each workExperiences as exp}
@@ -78,7 +78,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<h2 class="text-2xl uppercase text-left">Technologies and Languages</h2>
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
@@ -97,7 +97,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+			<h2 class="text-2xl uppercase text-left">Education</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -112,11 +112,11 @@
 		</Hideable>
 	</section>
 
-	<PrintPageBreak />
+	<!-- <PrintPageBreak /> -->
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+			<h2 class="text-2xl uppercase text-left">Projects</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -137,7 +137,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Extracurricular Activities</h2>
+			<h2 class="text-2xl uppercase text-left">Extracurricular Activities</h2>
 			<hr />
 
 			{#each extracurricularActivities as act}
@@ -148,7 +148,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
+			<h2 class="text-2xl uppercase text-left">Certifications</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -166,7 +166,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Awards</h2>
+			<h2 class="text-2xl uppercase text-left">Awards</h2>
 			<hr />
 
 			{#each featuredAwards as featAward}
@@ -189,7 +189,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+			<h2 class="text-2xl uppercase text-left">Interests</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -224,7 +224,7 @@
 	}
 
 	section h2 {
-		@apply font-semibold text-lg;
+		@apply font-semibold text-2xl;
 	}
 
 	section hr {
@@ -253,12 +253,16 @@
 			@apply pl-6;
 		}
 
+		section h2 {
+			@apply text-sm;
+		}
+
 		section {
-			@apply my-3;
+			@apply my-1.5;
 		}
 
 		section hr {
-			@apply mt-0 mb-1;
+			@apply mt-0 mb-0.5;
 		}
 
 		main {
