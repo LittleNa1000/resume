@@ -155,7 +155,7 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "AWS, GCP, Linux, Firebase, Vercel, Git, GitHub, GitLab, Docker, Kubernetes, ngrok, Figma, Jira, Confluence, Postman, GitHub Copilot, Claude Code, Cursor"
+			"details": "AWS, GCP, Linux, npm, pnpm, Firebase, Vercel, Git, GitHub, GitLab, Docker, Kubernetes, ngrok, Figma, Jira, Confluence, Postman, GitHub Copilot, Claude Code, Cursor"
 		},
 		{
 			"section": "Other:",
