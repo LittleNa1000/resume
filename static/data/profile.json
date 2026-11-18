@@ -169,13 +169,13 @@
 			"url": "https://playtorium.co.th",
 			"years": ["Aug 2025", "Present"],
 			"details": [
-				"Improved usability and testing efficiency for Ximpler, an AI-integrated testing platform used by GSB, SCB TechX, and Krungsri Nimble. By implementing recorder and runner for browser tests, Locator System with SQL transactions and real-time updates and feedbacks using SSE, WebSocket, and database triggers.",
+				"Took end-to-end ownership of features in Ximpler, an AI-integrated testing platform used by GSB, SCB TechX, Krungsri Nimble, and internally at Playtorium, improving usability and efficiency by implementing test recorder and runner, Locator System with SQL transactions and real-time updates and feedbacks using SSE, WebSocket, and database triggers. Using React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
+				"Automated database migrations in local, test, and production environments using a CLI script, reducing time and human errors.",
 				"Improved team and AI tools collaboration by authoring CLAUDE.md and SKILLS.md as project guidelines.",
 				"Reduced redundant data fetching and improved performance by implementing query caching and refetch optimization using React Query.",
 				"Enabled secure authentication by developing Azure Active Directory login flow.",
-				"Contributed through feature ideation, UX/UI design, implementation, and documentation using React, Redux, Antd, Express.js, Postgres, Playwright, and Appium.",
-				"Expanded Ximpler to B2C users by publishing a Chrome Extension integrated with the core platform using React, Antd, and WXT.",
-				"Composed flowcharts in the functional requirement document for TSFC Securities Public Company Limited back-office system."
+				"Contributed in a cross-functional team through feature ideation, system design, implementation, and code review to maintain quality.",
+				"Expanded Ximpler to B2C users by publishing a Chrome Extension integrated to the main platform using React, Antd, and WXT, and standardized releases and versioning with a CI script that publishes builds to GitLab."
 			]
 		},
 		{
@@ -228,7 +228,7 @@
 			"details": [
 				"Contributed to building and testing Thai Stock Order and Thai Stock Account microservices using Go, MySQL, and RabbitMQ.",
 				"Developed new pages for the corporate web with dynamic content and responsive using React and MUI and tested using Cypress.",
-				"Worked with the team of developers, QA engineers, and product owners based on scrum and agile methodology"
+				"Worked in a cross functional team of developers, QA engineers, and product owners based on scrum and agile methodology"
 			]
 		}
 	],
